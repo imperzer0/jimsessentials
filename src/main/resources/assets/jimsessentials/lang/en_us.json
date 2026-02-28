@@ -1,7 +1,5 @@
 {
   "jimsessentials.configuration.title": "Jim's Essentials Config",
   "jimsessentials.configuration.section.jimsessentials.common.toml": "Jim's Essentials Config",
-  "jimsessentials.configuration.section.jimsessentials.common.toml.title": "Jim's Essentials Config",
-  "jimsessentials.configuration.modules": "Enable/Disable Modules",
-  "jimsessentials.configuration.modules.autoshutdown": "Enable Auto Shutdown?"
+  "jimsessentials.configuration.section.jimsessentials.common.toml.title": "Jim's Essentials Config"
 }

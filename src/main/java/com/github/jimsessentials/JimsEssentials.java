@@ -1,6 +1,5 @@
 package com.github.jimsessentials;
 
-import net.neoforged.fml.common.EventBusSubscriber;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -10,8 +9,7 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.ModContainer;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(JimsEssentials.MODID)
-@EventBusSubscriber(modid = JimsEssentials.MODID)
+@Mod(value = JimsEssentials.MODID)
 public class JimsEssentials
 {
     // Define mod id in a common place for everything to reference

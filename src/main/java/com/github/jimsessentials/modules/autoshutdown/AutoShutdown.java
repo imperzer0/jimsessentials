@@ -6,6 +6,7 @@ import config.ServerConfig;
 import net.minecraft.server.MinecraftServer;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerEvent;
+import net.neoforged.neoforge.event.server.ServerStartedEvent;
 import org.jline.utils.Log;
 
 public class AutoShutdown extends Module
@@ -18,25 +19,29 @@ public class AutoShutdown extends Module
         super(ID);
     }
 
+    /**
+     * @return Singleton instance
+     */
     public static AutoShutdown Instance()
     {
-        if (AutoShutdown.instance == null)
-            AutoShutdown.instance = new AutoShutdown();
+        if (instance == null)
+            instance = new AutoShutdown();
 
-        return AutoShutdown.instance;
+        return instance;
     }
 
 
     private static ServerScheduler.JobInfo shutdown_job = null;
 
-    @SubscribeEvent
-    private static void player_leave(PlayerEvent.PlayerLoggedOutEvent event)
+    /**
+     * @param server Server instance to halt
+     */
+    private static void halt_server_later(MinecraftServer server)
     {
-        MinecraftServer server = event.getEntity().getServer();
         if (server == null)
         {
-            Log.error(event.getClass().getCanonicalName() + "'s getEntity().getServer() returned null.");
-            Log.error("Is this client side?");
+            Log.error("Weird...  server == null.");
+            Log.error("Is this the client side?");
             return;
         }
 
@@ -47,14 +52,35 @@ public class AutoShutdown extends Module
                 .job(() -> {
                     server.halt(false);
                 })
-                .delay(ServerConfig.AutoShutdown.delay.get())
+                .delay(ServerConfig.AutoShutdown.delay())
                 .build();
 
         ServerScheduler.Instance().schedule(shutdown_job);
     }
 
+    /**
+     * @apiNote Never call this method manually! It starts the countdown.
+     */
     @SubscribeEvent
-    private static void player_join(PlayerEvent.PlayerLoggedInEvent event)
+    private void server_started(ServerStartedEvent event)
+    {
+        halt_server_later(event.getServer());
+    }
+
+    /**
+     * @apiNote Never call this method manually! It starts the countdown.
+     */
+    @SubscribeEvent
+    private void player_leave(PlayerEvent.PlayerLoggedOutEvent event)
+    {
+        halt_server_later(event.getEntity().getServer());
+    }
+
+    /**
+     * @apiNote Never call this method manually! It starts the countdown.
+     */
+    @SubscribeEvent
+    private void player_join(PlayerEvent.PlayerLoggedInEvent event)
     {
         ServerScheduler.Instance().cancel(shutdown_job);
         shutdown_job = null;

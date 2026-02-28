@@ -72,7 +72,7 @@ public class ServerScheduler
      * @apiNote Abuse will lead to inaccurate delay timings and will break many components using ServerScheduler
      */
     @SubscribeEvent
-    private static void tick(ServerTickEvent tick)
+    private static void tick(ServerTickEvent.Post tick)
     {
         ++Instance().tick_counter; // Start from 1
 
