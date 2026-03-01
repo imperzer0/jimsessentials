@@ -1,4 +1,4 @@
-package config;
+package com.github.jimsessentials.config;
 
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.config.ModConfig;

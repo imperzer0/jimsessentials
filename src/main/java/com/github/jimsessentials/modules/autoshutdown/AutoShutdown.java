@@ -2,7 +2,7 @@ package com.github.jimsessentials.modules.autoshutdown;
 
 import com.github.jimsessentials.lib.ServerScheduler;
 import com.github.jimsessentials.lib.interfaces.Module;
-import config.ServerConfig;
+import com.github.jimsessentials.config.ServerConfig;
 import net.minecraft.server.MinecraftServer;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerEvent;

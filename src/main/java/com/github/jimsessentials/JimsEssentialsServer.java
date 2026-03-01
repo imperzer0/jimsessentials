@@ -1,7 +1,7 @@
 package com.github.jimsessentials;
 
 import com.github.jimsessentials.modules.autoshutdown.AutoShutdown;
-import config.ServerConfig;
+import com.github.jimsessentials.config.ServerConfig;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
