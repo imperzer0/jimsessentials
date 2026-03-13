@@ -50,7 +50,8 @@ public class AutoShutdown extends Module
 
         shutdown_job = ServerScheduler.JobInfo.Builder()
                 .job(() -> {
-                    server.halt(false);
+                    if (server.getPlayerCount() == 0) // only if there are no players
+                        server.halt(false);
                 })
                 .delay(ServerConfig.AutoShutdown.delay())
                 .build();
