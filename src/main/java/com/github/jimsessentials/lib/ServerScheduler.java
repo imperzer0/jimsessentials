@@ -9,6 +9,8 @@ import net.neoforged.neoforge.event.tick.ServerTickEvent;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.github.jimsessentials.JimsEssentials.Log;
+
 @EventBusSubscriber(modid = JimsEssentials.MODID, value = Dist.DEDICATED_SERVER)
 public class ServerScheduler
 {
@@ -76,18 +78,23 @@ public class ServerScheduler
     {
         ++Instance().tick_counter; // Start from 1
 
-        int n = 0;
+        ArrayList<JobInfo> to_be_removed = new ArrayList<>();
+
         for (JobInfo jobInfo : Instance().jobs)
         {
+            if (jobInfo.start_tick < 0)
+                jobInfo.start_tick = Instance().tick_counter - 1;
+
             if (jobInfo.delay == 0 || // Prevent division by 0
-                    Instance().tick_counter % (jobInfo.delay + 1) == 0)
+                    (Instance().tick_counter - jobInfo.start_tick) % (jobInfo.delay + 1) == 0)
             {
                 jobInfo.job.execute();
-                Instance().jobs.remove(n);
+                to_be_removed.add(jobInfo);
+                break;
             }
-
-            ++n;
         }
+
+        Instance().jobs.removeAll(to_be_removed);
     }
 
 
@@ -96,6 +103,7 @@ public class ServerScheduler
         private static int ID_COUNTER = 0;
         private final int id;
         private int delay;
+        private int start_tick;
         private Job job;
 
         /**
@@ -104,6 +112,7 @@ public class ServerScheduler
         private JobInfo()
         {
             this.delay = -1;
+            this.start_tick = -1;
             this.job = null;
             this.id = ID_COUNTER++;
         }

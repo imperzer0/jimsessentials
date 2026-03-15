@@ -7,7 +7,10 @@ import net.minecraft.server.MinecraftServer;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 import net.neoforged.neoforge.event.server.ServerStartedEvent;
-import org.jline.utils.Log;
+
+import java.util.Objects;
+
+import static com.github.jimsessentials.JimsEssentials.Log;
 
 public class AutoShutdown extends Module
 {
@@ -38,6 +41,7 @@ public class AutoShutdown extends Module
      */
     private static void halt_server_later(MinecraftServer server)
     {
+        Log.debug("server = {}", server);
         if (server == null)
         {
             Log.error("Weird...  server == null.");
@@ -50,8 +54,12 @@ public class AutoShutdown extends Module
 
         shutdown_job = ServerScheduler.JobInfo.Builder()
                 .job(() -> {
+                    Log.debug("PlayerCount = {}", server.getPlayerCount());
                     if (server.getPlayerCount() == 0) // only if there are no players
+                    {
+                        Log.info("Halting the server, because there are no players online.");
                         server.halt(false);
+                    }
                 })
                 .delay(ServerConfig.AutoShutdown.delay())
                 .build();
@@ -65,6 +73,8 @@ public class AutoShutdown extends Module
     @SubscribeEvent
     private void server_started(ServerStartedEvent event)
     {
+        Log.info("Started counting down. If no players connect in the meantime");
+        Log.info("the server will shut down.");
         halt_server_later(event.getServer());
     }
 
@@ -74,11 +84,14 @@ public class AutoShutdown extends Module
     @SubscribeEvent
     private void player_leave(PlayerEvent.PlayerLoggedOutEvent event)
     {
+        Log.info("Started counting down. If there will be no players");
+        Log.info("until it's over the server will shut down.");
+        Log.debug("Currently there are " + Objects.requireNonNull(event.getEntity().getServer()).getPlayerCount() + " players.");
         halt_server_later(event.getEntity().getServer());
     }
 
     /**
-     * @apiNote Never call this method manually! It starts the countdown.
+     * @apiNote Never call this method manually! It resets the countdown.
      */
     @SubscribeEvent
     private void player_join(PlayerEvent.PlayerLoggedInEvent event)
