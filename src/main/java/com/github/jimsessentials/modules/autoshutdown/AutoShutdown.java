@@ -73,8 +73,7 @@ public class AutoShutdown extends Module
     @SubscribeEvent
     private void server_started(ServerStartedEvent event)
     {
-        Log.info("Started counting down. If no players connect in the meantime");
-        Log.info("the server will shut down.");
+        Log.debug("Started counting down. If no players connect in the meantime the server will shut down.");
         halt_server_later(event.getServer());
     }
 
@@ -84,9 +83,8 @@ public class AutoShutdown extends Module
     @SubscribeEvent
     private void player_leave(PlayerEvent.PlayerLoggedOutEvent event)
     {
-        Log.info("Started counting down. If there will be no players");
-        Log.info("until it's over the server will shut down.");
-        Log.debug("Currently there are " + Objects.requireNonNull(event.getEntity().getServer()).getPlayerCount() + " players.");
+        Log.debug("Started counting down. If there will be no players until it's over the server will shut down.");
+        Log.debug("Currently there are {} players.", Objects.requireNonNull(event.getEntity().getServer()).getPlayerCount());
         halt_server_later(event.getEntity().getServer());
     }
 
