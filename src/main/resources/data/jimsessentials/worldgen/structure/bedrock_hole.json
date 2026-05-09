@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "jimsessentials:bedrock_hole/start_pool",
+  "size": 2,
+  "max_distance_from_center": 80,
+  "biomes": "#jimsessentials:has_structure/bedrock_hole",
+  "step": "underground_structures",
+  "start_height": {
+    "absolute": -70
+  },
+  "use_expansion_hack": false,
+  "spawn_overrides": {}
+}

@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "jimsessentials:castle_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 7,
+    "separation": 3,
+    "spread_type": "linear",
+    "salt": 483769375
+  }
+}

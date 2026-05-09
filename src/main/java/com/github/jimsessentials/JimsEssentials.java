@@ -1,5 +1,9 @@
 package com.github.jimsessentials;
 
+import com.github.jimsessentials.dimensions.wastelands.portal.WastelandPortal;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -10,6 +14,7 @@ import net.neoforged.fml.ModContainer;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(value = JimsEssentials.MODID)
+@EventBusSubscriber(modid = JimsEssentials.MODID)
 public class JimsEssentials
 {
     // Define mod id in a common place for everything to reference
@@ -21,5 +26,13 @@ public class JimsEssentials
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public JimsEssentials(IEventBus jim_event_bus, ModContainer container)
     {
+    }
+
+    @SubscribeEvent
+    private static void common_setup(final FMLCommonSetupEvent event)
+    {
+        event.enqueueWork(() -> {
+            WastelandPortal.Instance().register();
+        });
     }
 }
