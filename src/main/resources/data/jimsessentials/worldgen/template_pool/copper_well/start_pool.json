@@ -1,11 +1,11 @@
 {
-  "name": "jimsessentials:hanging_corridor/start_pool",
+  "name": "jimsessentials:copper_well/start_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "jimsessentials:hanging_corridor/hanging_corridor",
+        "location": "jimsessentials:well/copper_well",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

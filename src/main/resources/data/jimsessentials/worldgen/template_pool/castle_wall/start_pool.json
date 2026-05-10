@@ -5,7 +5,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "jimsessentials:castle_tower",
+        "location": "jimsessentials:castle/castle_tower",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

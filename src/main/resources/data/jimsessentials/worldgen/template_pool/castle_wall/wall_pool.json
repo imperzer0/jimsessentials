@@ -6,7 +6,7 @@
       "": "placed for sure",
       "weight": 1,
       "element": {
-        "location": "jimsessentials:castle_wall",
+        "location": "jimsessentials:castle/castle_wall",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -15,7 +15,7 @@
     {
       "weight": 20,
       "element": {
-        "location": "jimsessentials:castle_wall_next",
+        "location": "jimsessentials:castle/castle_wall_next",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -25,7 +25,7 @@
       "": "terminating",
       "weight": 19,
       "element": {
-        "location": "jimsessentials:castle_wall_ruined",
+        "location": "jimsessentials:castle/castle_wall_ruined",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -35,7 +35,7 @@
       "": "placed once",
       "weight": 19,
       "element": {
-        "location": "jimsessentials:castle_tower_tail",
+        "location": "jimsessentials:castle/castle_tower_tail",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -45,7 +45,7 @@
       "": "placed for sure",
       "weight": 1,
       "element": {
-        "location": "jimsessentials:castle_wall_other",
+        "location": "jimsessentials:castle/castle_wall_other",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -54,7 +54,7 @@
     {
       "weight": 20,
       "element": {
-        "location": "jimsessentials:castle_wall_other_next",
+        "location": "jimsessentials:castle/castle_wall_other_next",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -64,7 +64,7 @@
       "": "placed once",
       "weight": 19,
       "element": {
-        "location": "jimsessentials:castle_tower_other_tail",
+        "location": "jimsessentials:castle/castle_tower_other_tail",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -74,7 +74,7 @@
       "": "placed for sure",
       "weight": 1,
       "element": {
-        "location": "jimsessentials:castle_tower_other_keep",
+        "location": "jimsessentials:castle/castle_tower_other_keep",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -83,7 +83,7 @@
     {
       "weight": 20,
       "element": {
-        "location": "jimsessentials:castle_wall_other_short",
+        "location": "jimsessentials:castle/castle_wall_other_short",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

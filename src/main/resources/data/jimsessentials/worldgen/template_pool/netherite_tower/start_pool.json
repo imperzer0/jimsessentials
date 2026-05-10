@@ -5,7 +5,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "jimsessentials:netherite_tower",
+        "location": "jimsessentials:netherite_tower/netherite_tower",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
