@@ -2,8 +2,8 @@
   "replace": false,
 
   "values": [
-    "minecraft:desert",
-    "minecraft:badlands",
-    "minecraft:ocean"
+    "jimsessentials:wastelands_desert",
+    "jimsessentials:wastelands_badlands",
+    "jimsessentials:wastelands_ocean"
   ]
 }

@@ -17,7 +17,6 @@ import net.minecraft.world.level.dimension.DimensionType;
 import net.minecraft.world.level.dimension.LevelStem;
 import net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator;
 import net.minecraft.world.level.levelgen.NoiseGeneratorSettings;
-import net.minecraft.world.level.levelgen.NoiseSettings;
 
 import java.util.List;
 import java.util.OptionalLong;
@@ -33,16 +32,14 @@ public class DIM_Wastelands implements Dimension
             ResourceLocation.fromNamespaceAndPath(JimsEssentials.MODID, ID + "_t"));
 
 
-//    public final ResourceKey<Biome> WASTELANDS_OCEAN = ResourceKey.create(Registries.BIOME,
-//            ResourceLocation.fromNamespaceAndPath(JimsEssentials.MODID, "wastelands_ocean"));
-//    public final ResourceKey<Biome> WASTELANDS_STONY_PEAKS = ResourceKey.create(Registries.BIOME,
-//            ResourceLocation.fromNamespaceAndPath(JimsEssentials.MODID, "wastelands_stony_peaks"));
-//    public final ResourceKey<Biome> WASTELANDS_BADLANDS = ResourceKey.create(Registries.BIOME,
-//            ResourceLocation.fromNamespaceAndPath(JimsEssentials.MODID, "wastelands_badlands"));
-//    public final ResourceKey<Biome> WASTELANDS_DESERT = ResourceKey.create(Registries.BIOME,
-//            ResourceLocation.fromNamespaceAndPath(JimsEssentials.MODID, "wastelands_desert"));
-//    public final ResourceKey<Biome> WASTELANDS_NETHER_WASTES = ResourceKey.create(Registries.BIOME,
-//            ResourceLocation.fromNamespaceAndPath(JimsEssentials.MODID, "wastelands_nether_wastes"));
+    public final ResourceKey<Biome> WASTELANDS_OCEAN = ResourceKey.create(Registries.BIOME,
+            ResourceLocation.fromNamespaceAndPath(JimsEssentials.MODID, "wastelands_ocean"));
+    public final ResourceKey<Biome> WASTELANDS_STONY_PEAKS = ResourceKey.create(Registries.BIOME,
+            ResourceLocation.fromNamespaceAndPath(JimsEssentials.MODID, "wastelands_stony_peaks"));
+    public final ResourceKey<Biome> WASTELANDS_BADLANDS = ResourceKey.create(Registries.BIOME,
+            ResourceLocation.fromNamespaceAndPath(JimsEssentials.MODID, "wastelands_badlands"));
+    public final ResourceKey<Biome> WASTELANDS_DESERT = ResourceKey.create(Registries.BIOME,
+            ResourceLocation.fromNamespaceAndPath(JimsEssentials.MODID, "wastelands_desert"));
 
 
     private DIM_Wastelands()
@@ -98,7 +95,7 @@ public class DIM_Wastelands implements Dimension
                                         Climate.Parameter.span(0.4f, 0.5f), // E
                                         Climate.Parameter.point(0.f), // D
                                         Climate.Parameter.span(-2f, 2f), // w
-                                        0.f /* offset */), biomeRegistry.getOrThrow(Biomes.OCEAN)),
+                                        0.f /* offset */), biomeRegistry.getOrThrow(WASTELANDS_OCEAN)),
                                 Pair.of(Climate.parameters(
                                         Climate.Parameter.span(0.25f, 1.f), // t
                                         Climate.Parameter.span(-2.f, -0.15f), // h
@@ -106,7 +103,7 @@ public class DIM_Wastelands implements Dimension
                                         Climate.Parameter.span(-2.f, -0.7799f), // E
                                         Climate.Parameter.point(0.f), // D
                                         Climate.Parameter.span(-0.5f, 1.f), // w
-                                        0.f /* offset */), biomeRegistry.getOrThrow(Biomes.BADLANDS)),
+                                        0.f /* offset */), biomeRegistry.getOrThrow(WASTELANDS_BADLANDS)),
                                 Pair.of(Climate.parameters(
                                         Climate.Parameter.span(-2f, -0.9f), // t
                                         Climate.Parameter.span(-1.f, -0.35f), // h
@@ -114,7 +111,7 @@ public class DIM_Wastelands implements Dimension
                                         Climate.Parameter.span(-1f, -0.7799f), // E
                                         Climate.Parameter.point(0.f), // D
                                         Climate.Parameter.span(0.4f, 0.5f), // w
-                                        0.f /* offset */), biomeRegistry.getOrThrow(Biomes.STONY_PEAKS)),
+                                        0.f /* offset */), biomeRegistry.getOrThrow(WASTELANDS_STONY_PEAKS)),
                                 Pair.of(Climate.parameters(
                                         Climate.Parameter.span(-2f, 2f), // t
                                         Climate.Parameter.span(-1.5f, -0.6f), // h
@@ -122,9 +119,9 @@ public class DIM_Wastelands implements Dimension
                                         Climate.Parameter.span(-2.f, 0.f), // E
                                         Climate.Parameter.point(0.f), // D
                                         Climate.Parameter.span(-1.f, 0.5f), // w
-                                        0.f /* offset */), biomeRegistry.getOrThrow(Biomes.DESERT))
+                                        0.f /* offset */), biomeRegistry.getOrThrow(WASTELANDS_DESERT))
                         ))),
-                noiseGenSettings.getOrThrow(NoiseGeneratorSettings.OVERWORLD));
+                noiseGenSettings.getOrThrow(ResourceKey.create(Registries.NOISE_SETTINGS, ResourceLocation.fromNamespaceAndPath(JimsEssentials.MODID, "wastelands"))));
 
         LevelStem stem = new LevelStem(dimTypes.getOrThrow(TYPE), noiseBasedChunkGenerator);
 
