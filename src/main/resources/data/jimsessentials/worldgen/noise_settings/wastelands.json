@@ -1,7 +1,7 @@
 {
   "aquifers_enabled": true,
   "default_block": {
-    "Name": "minecraft:stone"
+    "Name": "minecraft:deepslate"
   },
   "default_fluid": {
     "Name": "minecraft:water",
@@ -332,7 +332,7 @@
     }
   },
   "ore_veins_enabled": true,
-  "sea_level": 63,
+  "sea_level": 46,
   "spawn_target": [
     {
       "continentalness": [
@@ -1418,7 +1418,7 @@
                               "if_true": {
                                 "type": "minecraft:biome",
                                 "biome_is": [
-                                  "minecraft:dripstone_caves"
+                                  "jimsessentials:wastelands_dripstone_caves"
                                 ]
                               },
                               "then_run": {
@@ -2194,7 +2194,7 @@
                               "if_true": {
                                 "type": "minecraft:biome",
                                 "biome_is": [
-                                  "minecraft:dripstone_caves"
+                                  "jimsessentials:wastelands_dripstone_caves"
                                 ]
                               },
                               "then_run": {
@@ -2520,11 +2520,11 @@
         "if_true": {
           "type": "minecraft:vertical_gradient",
           "false_at_and_above": {
-            "absolute": 8
+            "absolute": 48
           },
           "random_name": "minecraft:deepslate",
           "true_at_and_below": {
-            "absolute": 0
+            "absolute": 40
           }
         },
         "then_run": {

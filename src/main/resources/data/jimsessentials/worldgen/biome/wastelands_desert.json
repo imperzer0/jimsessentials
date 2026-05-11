@@ -8,7 +8,8 @@
   },
   "downfall": 0.0,
   "effects": {
-    "fog_color": 12638463,
+    "fog_color": 14013909,
+    "grass_color": 16759552,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -21,9 +22,9 @@
       "replace_current_music": false,
       "sound": "minecraft:music.overworld.desert"
     },
-    "sky_color": 7254527,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "sky_color": 10855845,
+    "water_color": 3158064,
+    "water_fog_color": 657930
   },
   "features": [
     [],
@@ -152,12 +153,6 @@
         "maxCount": 4,
         "minCount": 4,
         "weight": 100
-      },
-      {
-        "type": "minecraft:enderman",
-        "maxCount": 4,
-        "minCount": 1,
-        "weight": 10
       },
       {
         "type": "minecraft:witch",

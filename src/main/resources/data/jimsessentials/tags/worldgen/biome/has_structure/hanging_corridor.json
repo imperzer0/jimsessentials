@@ -2,8 +2,6 @@
   "replace": false,
 
   "values": [
-    "jimsessentials:wastelands_desert",
-    "jimsessentials:wastelands_badlands",
-    "jimsessentials:wastelands_ocean"
+    "#jimsessentials:wastelands/is_wastelands"
   ]
 }

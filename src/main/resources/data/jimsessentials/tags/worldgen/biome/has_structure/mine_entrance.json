@@ -2,7 +2,6 @@
   "replace": false,
 
   "values": [
-    "jimsessentials:wastelands_desert",
-    "jimsessentials:wastelands_badlands"
+    "#jimsessentials:wastelands/is_surface"
   ]
 }
