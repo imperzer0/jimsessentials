@@ -139,7 +139,7 @@
         "weight": 100
       },
       {
-        "type": "minecraft:creeper",
+        "type": "minecraft:wither_skeleton",
         "maxCount": 4,
         "minCount": 4,
         "weight": 100

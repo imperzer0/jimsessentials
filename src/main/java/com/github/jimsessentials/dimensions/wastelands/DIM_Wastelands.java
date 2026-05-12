@@ -64,7 +64,7 @@ public class DIM_Wastelands implements Dimension
     {
         context.register(TYPE, new DimensionType(
                 OptionalLong.of(18000), // fixedTime - infinite midnight
-                true, // hasSkylight
+                false, // hasSkylight
                 false, // hasCeiling
                 false, // ultraWarm
                 false, // natural
@@ -76,8 +76,8 @@ public class DIM_Wastelands implements Dimension
                 384, // logicalHeight
                 BlockTags.INFINIBURN_OVERWORLD, // infiniburn
                 BuiltinDimensionTypes.OVERWORLD_EFFECTS, // effectsLocation
-                0.0f, // ambientLight
-                new DimensionType.MonsterSettings(true, false, ConstantInt.of(0), 3)));
+                0.1f, // ambientLight
+                new DimensionType.MonsterSettings(true, false, ConstantInt.of(7), 15)));
     }
 
     @Override
