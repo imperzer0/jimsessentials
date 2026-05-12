@@ -17,6 +17,7 @@ import net.minecraft.world.level.dimension.DimensionType;
 import net.minecraft.world.level.dimension.LevelStem;
 import net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator;
 import net.minecraft.world.level.levelgen.NoiseGeneratorSettings;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 import java.util.OptionalLong;
@@ -59,10 +60,10 @@ public class DIM_Wastelands implements Dimension
 
 
     @Override
-    public void bootstrapType(BootstrapContext<DimensionType> context)
+    public void bootstrapType(@NotNull BootstrapContext<DimensionType> context)
     {
         context.register(TYPE, new DimensionType(
-                OptionalLong.of(6000), // fixedTime - infinite noon
+                OptionalLong.of(18000), // fixedTime - infinite midnight
                 true, // hasSkylight
                 false, // hasCeiling
                 false, // ultraWarm
@@ -76,11 +77,11 @@ public class DIM_Wastelands implements Dimension
                 BlockTags.INFINIBURN_OVERWORLD, // infiniburn
                 BuiltinDimensionTypes.OVERWORLD_EFFECTS, // effectsLocation
                 0.0f, // ambientLight
-                new DimensionType.MonsterSettings(true, false, ConstantInt.of(0), 0)));
+                new DimensionType.MonsterSettings(true, false, ConstantInt.of(0), 3)));
     }
 
     @Override
-    public void bootstrapDimension(BootstrapContext<LevelStem> context)
+    public void bootstrapDimension(@NotNull BootstrapContext<LevelStem> context)
     {
         HolderGetter<Biome> biomeRegistry = context.lookup(Registries.BIOME);
         HolderGetter<DimensionType> dimTypes = context.lookup(Registries.DIMENSION_TYPE);
