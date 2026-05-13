@@ -34,15 +34,15 @@ public class DIM_Wastelands implements Dimension
 
 
     public final ResourceKey<Biome> WASTELANDS_STONY_PEAKS = ResourceKey.create(Registries.BIOME,
-            ResourceLocation.fromNamespaceAndPath(JimsEssentials.MODID, "wastelands_stony_peaks"));
+            ResourceLocation.fromNamespaceAndPath(JimsEssentials.MODID, "wastelands/wastelands_stony_peaks"));
     public final ResourceKey<Biome> WASTELANDS_BADLANDS = ResourceKey.create(Registries.BIOME,
-            ResourceLocation.fromNamespaceAndPath(JimsEssentials.MODID, "wastelands_badlands"));
+            ResourceLocation.fromNamespaceAndPath(JimsEssentials.MODID, "wastelands/wastelands_badlands"));
     public final ResourceKey<Biome> WASTELANDS_DESERT = ResourceKey.create(Registries.BIOME,
-            ResourceLocation.fromNamespaceAndPath(JimsEssentials.MODID, "wastelands_desert"));
+            ResourceLocation.fromNamespaceAndPath(JimsEssentials.MODID, "wastelands/wastelands_desert"));
     public final ResourceKey<Biome> WASTELANDS_DRIPSTONE_CAVES = ResourceKey.create(Registries.BIOME,
-            ResourceLocation.fromNamespaceAndPath(JimsEssentials.MODID, "wastelands_dripstone_caves"));
+            ResourceLocation.fromNamespaceAndPath(JimsEssentials.MODID, "wastelands/wastelands_dripstone_caves"));
     public final ResourceKey<Biome> WASTELANDS_LUSH_CAVES = ResourceKey.create(Registries.BIOME,
-            ResourceLocation.fromNamespaceAndPath(JimsEssentials.MODID, "wastelands_lush_caves"));
+            ResourceLocation.fromNamespaceAndPath(JimsEssentials.MODID, "wastelands/wastelands_lush_caves"));
 
 
     private DIM_Wastelands()

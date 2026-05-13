@@ -1,8 +1,8 @@
 {
   "values": [
     "minecraft:the_void",
-    "jimsessentials:wastelands_badlands",
-    "jimsessentials:wastelands_desert",
-    "jimsessentials:wastelands_stony_peaks"
+    "jimsessentials:wastelands/wastelands_badlands",
+    "jimsessentials:wastelands/wastelands_desert",
+    "jimsessentials:wastelands/wastelands_stony_peaks"
   ]
 }

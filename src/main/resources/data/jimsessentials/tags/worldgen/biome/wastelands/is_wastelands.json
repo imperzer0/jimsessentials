@@ -1,9 +1,9 @@
 {
   "values": [
-    "jimsessentials:wastelands_desert",
-    "jimsessentials:wastelands_badlands",
-    "jimsessentials:wastelands_stony_peaks",
-    "jimsessentials:wastelands_dripstone_caves",
-    "jimsessentials:wastelands_lush_caves"
+    "jimsessentials:wastelands/wastelands_desert",
+    "jimsessentials:wastelands/wastelands_badlands",
+    "jimsessentials:wastelands/wastelands_stony_peaks",
+    "jimsessentials:wastelands/wastelands_dripstone_caves",
+    "jimsessentials:wastelands/wastelands_lush_caves"
   ]
 }

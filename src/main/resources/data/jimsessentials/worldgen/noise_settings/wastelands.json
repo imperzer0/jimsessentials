@@ -636,7 +636,7 @@
               "if_true": {
                 "type": "minecraft:biome",
                 "biome_is": [
-                  "jimsessentials:wastelands_badlands",
+                  "jimsessentials:wastelands/wastelands_badlands",
                   "minecraft:eroded_badlands",
                   "minecraft:wooded_badlands"
                 ]
@@ -1229,7 +1229,7 @@
                               "if_true": {
                                 "type": "minecraft:biome",
                                 "biome_is": [
-                                  "jimsessentials:wastelands_stony_peaks"
+                                  "jimsessentials:wastelands/wastelands_stony_peaks"
                                 ]
                               },
                               "then_run": {
@@ -1382,7 +1382,7 @@
                               "if_true": {
                                 "type": "minecraft:biome",
                                 "biome_is": [
-                                  "jimsessentials:wastelands_desert"
+                                  "jimsessentials:wastelands/wastelands_desert"
                                 ]
                               },
                               "then_run": {
@@ -1418,7 +1418,7 @@
                               "if_true": {
                                 "type": "minecraft:biome",
                                 "biome_is": [
-                                  "jimsessentials:wastelands_dripstone_caves"
+                                  "jimsessentials:wastelands/wastelands_dripstone_caves"
                                 ]
                               },
                               "then_run": {
@@ -2005,7 +2005,7 @@
                               "if_true": {
                                 "type": "minecraft:biome",
                                 "biome_is": [
-                                  "jimsessentials:wastelands_stony_peaks"
+                                  "jimsessentials:wastelands/wastelands_stony_peaks"
                                 ]
                               },
                               "then_run": {
@@ -2158,7 +2158,7 @@
                               "if_true": {
                                 "type": "minecraft:biome",
                                 "biome_is": [
-                                  "jimsessentials:wastelands_desert"
+                                  "jimsessentials:wastelands/wastelands_desert"
                                 ]
                               },
                               "then_run": {
@@ -2194,7 +2194,7 @@
                               "if_true": {
                                 "type": "minecraft:biome",
                                 "biome_is": [
-                                  "jimsessentials:wastelands_dripstone_caves"
+                                  "jimsessentials:wastelands/wastelands_dripstone_caves"
                                 ]
                               },
                               "then_run": {
@@ -2393,7 +2393,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "jimsessentials:wastelands_desert"
+                        "jimsessentials:wastelands/wastelands_desert"
                       ]
                     },
                     "then_run": {

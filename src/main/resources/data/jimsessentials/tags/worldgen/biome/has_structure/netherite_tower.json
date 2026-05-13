@@ -2,7 +2,7 @@
   "replace": false,
 
   "values": [
-    "jimsessentials:wastelands_desert",
-    "jimsessentials:wastelands_badlands"
+    "jimsessentials:wastelands/wastelands_desert",
+    "jimsessentials:wastelands/wastelands_badlands"
   ]
 }
