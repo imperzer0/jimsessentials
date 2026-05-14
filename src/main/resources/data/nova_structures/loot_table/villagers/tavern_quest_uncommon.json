@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+	  {
+		  "type": "minecraft:loot_table",
+		  "value": "nova_structures:charts/cave_chamber_colony"
+	  },
+	  {
+		  "type": "minecraft:loot_table",
+		  "value": "nova_structures:charts/conduit_ruin"
+	  },
+	  {
+		  "type": "minecraft:loot_table",
+		  "value": "nova_structures:charts/mangrove_witch_hut"
+	  },
+	  {
+		  "type": "minecraft:loot_table",
+		  "value": "nova_structures:charts/ruin_town"
+	  },
+	  {
+		  "type": "minecraft:loot_table",
+		  "value": "nova_structures:charts/shrine_tower"
+	  },
+	  {
+		  "type": "minecraft:loot_table",
+		  "value": "nova_structures:charts/stray_outlook"
+	  },
+	  {
+		  "type": "minecraft:loot_table",
+		  "value": "nova_structures:charts/trail_ruins"
+	  },
+	  {
+		  "type": "minecraft:loot_table",
+		  "value": "nova_structures:charts/trial_dungeon"
+	  },
+	  {
+		  "type": "minecraft:loot_table",
+		  "value": "nova_structures:charts/village_birch"
+	  },
+	  {
+		  "type": "minecraft:loot_table",
+		  "value": "nova_structures:charts/village_jungle"
+	  },
+	  {
+		  "type": "minecraft:loot_table",
+		  "value": "nova_structures:charts/village_swamp"
+	  }
+      ]
+    }
+  ]
+}

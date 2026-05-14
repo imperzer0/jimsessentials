@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/any_village"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/pillager_outpost"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/tavern_dark_oak"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/village_swamp"
+        }
+      ]
+    },
+	{
+      "rolls": 1,
+      "entries": [
+		{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/illager_barracks",
+		  "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/badlands_miner_outpost"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/illager_hideout"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/illager_manor"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/toxic_lair"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/ancient_city"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/pale_residence"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/witch_villa"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/woodland_explorer"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "nova_structures:loot_modifier"
+    }
+  ]
+}

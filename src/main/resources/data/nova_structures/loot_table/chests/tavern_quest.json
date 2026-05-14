@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/jungle_ruin"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/undead_crypt"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/stray_fort"
+        },
+		    {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/lone_citadel"
+        },
+		    {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/toxic_lair"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/creeping_crypt"
+        },
+    	  {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/desert_ruin"
+        },
+		    {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/ancient_city"
+        },
+		    {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/illager_hideout"
+        },
+		    {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/badlands_miner_outpost"
+        },
+		    {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/witch_villa"
+        },
+		    {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/illager_manor"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/illager_barracks"
+        },
+		    {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:charts/trident_trial_monument"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "nova_structures:loot_modifier"
+    }
+  ]
+}

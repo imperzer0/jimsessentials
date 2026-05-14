@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+	  {
+		  "type": "minecraft:loot_table",
+		  "weight": 3,
+		  "value": "nova_structures:charts/shrine_tier_1"
+	  },
+	  {
+		  "type": "minecraft:loot_table",
+		  "weight": 4,
+		  "value": "nova_structures:charts/shrine_tier_2"
+	  },
+	  {
+		  "type": "minecraft:loot_table",
+		  "weight": 5,
+		  "value": "nova_structures:charts/shrine_tier_3"
+	  },
+	  {
+		  "type": "minecraft:loot_table",
+		  "weight": 4,
+		  "value": "nova_structures:charts/shrine_tier_4"
+	  },
+	  {
+		  "type": "minecraft:loot_table",
+		  "weight": 3,
+		  "value": "nova_structures:charts/shrine_tier_5"
+	  },
+	  {
+		  "type": "minecraft:loot_table",
+		  "weight": 1,
+		  "value": "nova_structures:charts/shrine_tier_6"
+	  }
+      ]
+    }
+  ]
+}

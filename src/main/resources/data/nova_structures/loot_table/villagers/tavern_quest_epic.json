@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+	  {
+		  "type": "minecraft:loot_table",
+		  "value": "nova_structures:charts/ancient_city"
+	  },
+	  {
+		  "type": "minecraft:loot_table",
+		  "value": "nova_structures:charts/illager_hideout"
+	  },
+	  {
+		  "type": "minecraft:loot_table",
+		  "value": "nova_structures:charts/illager_manor"
+	  },
+	  {
+		  "type": "minecraft:loot_table",
+		  "value": "nova_structures:charts/lone_citadel"
+	  },
+	  {
+		  "type": "minecraft:loot_table",
+		  "value": "nova_structures:charts/toxic_lair"
+	  },
+	  {
+		  "type": "minecraft:loot_table",
+		  "value": "nova_structures:charts/trident_trial_monument"
+	  }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "jimsessentials:nova_structures/badlands_miner_outpost",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"spacing": 20,
+		"separation": 4,
+		"salt": 783,
+		"type": "minecraft:random_spread"
+	}
+}
