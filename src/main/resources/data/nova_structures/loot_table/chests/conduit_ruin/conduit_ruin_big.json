@@ -38,7 +38,7 @@
               }
             }
           ],
-          "name": "minecraft:copper_axe"
+          "name": "minecraft:stone_axe"
         }
       ]
     },
@@ -202,9 +202,23 @@
           "name": "minecraft:trident",
           "weight": 2
         },
-		{
-          "type": "minecraft:loot_table",
-          "value": "nova_structures:maps/buried_treasure",
+		    {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "decoration": "red_x",
+              "function": "minecraft:exploration_map",
+              "skip_existing_chunks": false,
+              "zoom": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.buried_treasure"
+              }
+            }
+          ],
+          "name": "minecraft:map",
           "weight": 30
         }
       ]

@@ -53,13 +53,7 @@
             }
           ],
           "name": "minecraft:lingering_potion"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+        },
         {
           "type": "minecraft:item",
           "name": "minecraft:arrow"
@@ -70,26 +64,6 @@
             {
               "function": "minecraft:set_potion",
               "id": "minecraft:poison"
-            }
-          ],
-          "name": "minecraft:tipped_arrow"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:long_slowness"
-            }
-          ],
-          "name": "minecraft:tipped_arrow"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:harming"
             }
           ],
           "name": "minecraft:tipped_arrow"

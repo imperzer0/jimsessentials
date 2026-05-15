@@ -21,38 +21,6 @@
           ],
           "name": "minecraft:exposed_copper"
         },
-		{
-          "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 5.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:exposed_copper_chain"
-        },
-		{
-          "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 5.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:exposed_copper_lantern"
-        },
         {
           "type": "minecraft:item",
           "weight": 5,
@@ -147,7 +115,7 @@
               "add": false
             }
           ],
-          "name": "minecraft:lapis_lazuli"
+          "name": "minecraft:name_tag"
         },
         {
           "type": "minecraft:item",

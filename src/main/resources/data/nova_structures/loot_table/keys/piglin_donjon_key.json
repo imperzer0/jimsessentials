@@ -10,8 +10,8 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": {"floats": [717.0]},
-                "minecraft:item_name": {"translate":"item.dnt.piglin_donjon_key", "fallback":"Piglin Donjon Key"}
+                "minecraft:custom_model_data": 717,
+                "minecraft:item_name": "{'translate':'item.dnt.piglin_donjon_key', 'fallback':'Piglin Donjon Key'}"
               }
             }
           ]

@@ -18,11 +18,11 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:lapis_lazuli"
+          "name": "minecraft:name_tag"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather"
+          "name": "minecraft:saddle"
         },
         {
           "type": "minecraft:item",

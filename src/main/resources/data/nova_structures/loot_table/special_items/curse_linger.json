@@ -7,6 +7,13 @@
           "type": "minecraft:item",
           "functions": [
             {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "The curse of the elder in a bottle"
+              },
+              "target": "item_name"
+            },
+            {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:potion_contents": {
@@ -16,8 +23,7 @@
                       "id": "minecraft:mining_fatigue",
                       "duration": 600
                     }
-                  ],
-                  "custom_name": "dnt_mining_fatigue"
+                  ]
                 }
               }
             }

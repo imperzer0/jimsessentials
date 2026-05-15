@@ -14,7 +14,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:leather"
+          "name": "minecraft:saddle"
         },
         {
           "type": "minecraft:item",
@@ -248,7 +248,7 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 200
+          "weight": 100
         },
         {
           "type": "minecraft:item",

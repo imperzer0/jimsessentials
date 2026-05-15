@@ -100,7 +100,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather",
+          "name": "minecraft:saddle",
           "weight": 5
         }
       ]
@@ -202,11 +202,11 @@
             }
           ],
           "name": "minecraft:book",
-          "weight": 40
+          "weight": 20
         },
         {
           "type": "minecraft:empty",
-          "weight": 20
+          "weight": 80
         }
       ]
     }

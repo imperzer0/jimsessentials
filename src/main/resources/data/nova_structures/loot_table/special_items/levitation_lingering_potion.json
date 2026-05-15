@@ -16,9 +16,9 @@
                       "id": "minecraft:levitation",
                       "duration": 400
                     }
-                  ],
-                  "custom_name": "dnt_levitation"
-                }
+                  ]
+                },
+                "minecraft:item_name": "{'translate':'item.dnt.levitation_lingering_potion', 'fallback':'Lingering Potion of Levitation'}"
               }
             }
           ],

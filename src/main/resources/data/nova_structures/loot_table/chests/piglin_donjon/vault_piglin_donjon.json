@@ -103,10 +103,6 @@
           "type": "minecraft:item",
           "name": "minecraft:netherite_sword"
         },
-		{
-          "type": "minecraft:item",
-          "name": "minecraft:netherite_spear"
-        },
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_pickaxe"

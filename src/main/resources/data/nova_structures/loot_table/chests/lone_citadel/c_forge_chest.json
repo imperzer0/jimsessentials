@@ -13,20 +13,6 @@
                 "min": 0.7,
                 "max": 1.0
               }
-            },
-            {
-              "options": "#nova_structures:structure/lone_citadel",
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "max": 20,
-                "min": 10
-              },
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ]
             }
           ],
           "name": "minecraft:iron_chestplate"
@@ -40,20 +26,6 @@
                 "min": 0.7,
                 "max": 1.0
               }
-            },
-            {
-              "options": "#nova_structures:structure/lone_citadel",
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "max": 20,
-                "min": 10
-              },
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ]
             }
           ],
           "name": "minecraft:iron_leggings"
@@ -67,20 +39,6 @@
                 "min": 0.7,
                 "max": 1.0
               }
-            },
-            {
-              "options": "#nova_structures:structure/lone_citadel",
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "max": 20,
-                "min": 10
-              },
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ]
             }
           ],
           "name": "minecraft:iron_boots"
@@ -94,20 +52,6 @@
                 "min": 0.7,
                 "max": 1.0
               }
-            },
-            {
-              "options": "#nova_structures:structure/lone_citadel",
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "max": 20,
-                "min": 10
-              },
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ]
             }
           ],
           "name": "minecraft:chainmail_chestplate"
@@ -121,20 +65,6 @@
                 "min": 0.7,
                 "max": 1.0
               }
-            },
-            {
-              "options": "#nova_structures:structure/lone_citadel",
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "max": 20,
-                "min": 10
-              },
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ]
             }
           ],
           "name": "minecraft:chainmail_leggings"
@@ -148,20 +78,6 @@
                 "min": 0.7,
                 "max": 1.0
               }
-            },
-            {
-              "options": "#nova_structures:structure/lone_citadel",
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "max": 20,
-                "min": 10
-              },
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ]
             }
           ],
           "name": "minecraft:chainmail_boots"
@@ -175,20 +91,6 @@
                 "min": 0.7,
                 "max": 1.0
               }
-            },
-            {
-              "options": "#nova_structures:structure/lone_citadel",
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "max": 20,
-                "min": 10
-              },
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ]
             }
           ],
           "name": "minecraft:diamond_helmet",
@@ -203,20 +105,6 @@
                 "min": 0.7,
                 "max": 1.0
               }
-            },
-            {
-              "options": "#nova_structures:structure/lone_citadel",
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "max": 20,
-                "min": 10
-              },
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ]
             }
           ],
           "name": "minecraft:crossbow"
@@ -230,20 +118,6 @@
                 "min": 0.7,
                 "max": 1.0
               }
-            },
-            {
-              "options": "#nova_structures:structure/lone_citadel",
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "max": 20,
-                "min": 10
-              },
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ]
             }
           ],
           "name": "minecraft:bow"
@@ -257,20 +131,6 @@
                 "min": 0.7,
                 "max": 1.0
               }
-            },
-            {
-              "options": "#nova_structures:structure/lone_citadel",
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "max": 20,
-                "min": 10
-              },
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ]
             }
           ],
           "name": "minecraft:iron_axe"
@@ -284,20 +144,6 @@
                 "min": 0.7,
                 "max": 1.0
               }
-            },
-            {
-              "options": "#nova_structures:structure/lone_citadel",
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "max": 20,
-                "min": 10
-              },
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ]
             }
           ],
           "name": "minecraft:iron_pickaxe"
@@ -311,20 +157,6 @@
                 "min": 0.7,
                 "max": 1.0
               }
-            },
-            {
-              "options": "#nova_structures:structure/lone_citadel",
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "max": 20,
-                "min": 10
-              },
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ]
             }
           ],
           "name": "minecraft:iron_hoe"
@@ -338,20 +170,6 @@
                 "min": 0.7,
                 "max": 1.0
               }
-            },
-            {
-              "options": "#nova_structures:structure/lone_citadel",
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "max": 20,
-                "min": 10
-              },
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ]
             }
           ],
           "name": "minecraft:iron_shovel"
@@ -365,20 +183,6 @@
                 "min": 0.7,
                 "max": 1.0
               }
-            },
-            {
-              "options": "#nova_structures:structure/lone_citadel",
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "max": 20,
-                "min": 10
-              },
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ]
             }
           ],
           "name": "minecraft:diamond_axe"
@@ -392,20 +196,6 @@
                 "min": 0.7,
                 "max": 1.0
               }
-            },
-            {
-              "options": "#nova_structures:structure/lone_citadel",
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "max": 20,
-                "min": 10
-              },
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ]
             }
           ],
           "name": "minecraft:diamond_pickaxe"
@@ -419,20 +209,6 @@
                 "min": 0.7,
                 "max": 1.0
               }
-            },
-            {
-              "options": "#nova_structures:structure/lone_citadel",
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "max": 20,
-                "min": 10
-              },
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ]
             }
           ],
           "name": "minecraft:diamond_hoe"
@@ -446,20 +222,6 @@
                 "min": 0.7,
                 "max": 1.0
               }
-            },
-            {
-              "options": "#nova_structures:structure/lone_citadel",
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "max": 20,
-                "min": 10
-              },
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ]
             }
           ],
           "name": "minecraft:diamond_shovel"
@@ -480,7 +242,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:lapis_lazuli"
+          "name": "minecraft:name_tag"
         },
         {
           "type": "minecraft:item",
@@ -649,24 +411,6 @@
         "max": 3.0,
         "min": 2.0
       }
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "name": "minecraft:emerald",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "max": 8,
-                "min": 3
-              }
-            }
-          ]
-        }
-      ]
     }
   ],
   "functions": [

@@ -112,7 +112,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:lapis_lazuli",
+          "name": "minecraft:name_tag",
           "weight": 5
         },
         {
@@ -202,7 +202,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#nova_structures:end_castle"
             }
           ],
           "name": "minecraft:iron_helmet"
@@ -213,7 +213,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#nova_structures:end_castle"
             }
           ],
           "name": "minecraft:iron_chestplate"
@@ -224,7 +224,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#nova_structures:end_castle"
             }
           ],
           "name": "minecraft:iron_leggings"
@@ -235,7 +235,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#nova_structures:end_castle"
             }
           ],
           "name": "minecraft:iron_boots"
@@ -246,21 +246,10 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#nova_structures:end_castle"
             }
           ],
           "name": "minecraft:iron_sword"
-        },
-		{
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "enchant_with_levels",
-              "levels": 25,
-              "options": "#nova_structures:structure/end"
-            }
-          ],
-          "name": "minecraft:iron_spear"
         },
         {
           "type": "minecraft:item",
@@ -268,7 +257,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#nova_structures:end_castle"
             }
           ],
           "name": "minecraft:iron_axe"
@@ -279,21 +268,10 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#nova_structures:end_castle"
             }
           ],
           "name": "minecraft:diamond_sword"
-        },
-		{
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "enchant_with_levels",
-              "levels": 25,
-              "options": "#nova_structures:structure/end"
-            }
-          ],
-          "name": "minecraft:diamond_spear"
         },
         {
           "type": "minecraft:item",
@@ -301,7 +279,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/end"
+              "options": "#nova_structures:end_castle"
             }
           ],
           "name": "minecraft:crossbow",

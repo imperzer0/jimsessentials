@@ -1,72 +1,6 @@
 {
   "type": "minecraft:chest",
   "pools": [
-	{
-      "bonus_rolls": 0.0,
-      "entries": [
-		{
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:ancient_debris",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:netherite_upgrade_smithing_template",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:snout_armor_trim_smithing_template",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:music_disc_pigstep",
-          "weight": 8
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:piglin_banner_pattern",
-          "weight": 2
-        }
-      ],
-      "rolls": 1.0
-    },
     {
       "bonus_rolls": 0.0,
       "entries": [
@@ -162,7 +96,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
+                "max": 2.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
@@ -206,7 +140,7 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/nether"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:crossbow"
@@ -226,8 +160,24 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "value": "nova_structures:charts/piglin_donjon"
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "decoration": "red_x",
+              "destination": "nova_structures:piglin_donjon",
+              "zoom": 4,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:map_color": 8266797,
+                "minecraft:item_name": "{'translate': 'item.dnt.filled_map.piglin_donjon', 'fallback': 'Piglin Donjon Map', 'italic': false}"
+              }
+            }
+          ],
+          "name": "minecraft:map"
         }
       ],
       "rolls": 1

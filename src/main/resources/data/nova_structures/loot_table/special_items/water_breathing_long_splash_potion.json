@@ -17,10 +17,16 @@
                       "id": "minecraft:water_breathing",
                       "duration": 6000
                     }
-                  ],
-                  "custom_name": "dnt_water_breathing"
+                  ]
                 }
               }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.minecraft.splash_potion.effect.water_breathing"
+              },
+              "target": "item_name"
             }
           ]
         }

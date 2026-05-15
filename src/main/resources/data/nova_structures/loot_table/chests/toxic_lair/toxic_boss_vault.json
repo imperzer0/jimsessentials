@@ -191,7 +191,7 @@
                   {
                     "function": "enchant_with_levels",
                     "levels": 30,
-                    "options": "#nova_structures:structure/toxic_lair_no_dnt_enchant"
+                    "options": "#nova_structures:toxic"
                   }
                 ],
                 "name": "minecraft:bow"
@@ -206,7 +206,7 @@
                   {
                     "function": "enchant_with_levels",
                     "levels": 30,
-                    "options": "#nova_structures:structure/toxic_lair_no_dnt_enchant"
+                    "options": "#nova_structures:toxic"
                   }
                 ],
                 "name": "minecraft:bow"

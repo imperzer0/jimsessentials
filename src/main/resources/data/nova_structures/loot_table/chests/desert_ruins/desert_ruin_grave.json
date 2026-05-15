@@ -133,7 +133,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:lapis_lazuli",
+          "name": "minecraft:name_tag",
           "weight": 5
         },
         {
@@ -157,19 +157,8 @@
           "name": "minecraft:dune_armor_trim_smithing_template"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#nova_structures:outreach"
-            }
-          ],
-          "name": "minecraft:book",
-          "weight": 50
-        },
-        {
           "type": "minecraft:empty",
-          "weight": 50
+          "weight": 100
         }
       ]
     }

@@ -10,8 +10,8 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": {"floats": [711.0]},
-                "minecraft:item_name": {"translate":"item.dnt.shrine_key", "fallback":"Shrine Key"}
+                "minecraft:custom_model_data": 711,
+                "minecraft:item_name": "{'translate':'item.dnt.shrine_key', 'fallback':'Shrine Key'}"
               }
             }
           ]

@@ -95,12 +95,12 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:lapis_lazuli",
+          "name": "minecraft:name_tag",
           "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather"
+          "name": "minecraft:saddle"
         },
         {
           "type": "minecraft:item",
@@ -276,28 +276,7 @@
           "name": "minecraft:sand"
         }
       ]
-    },
-    {
-        "bonus_rolls": 0.0,
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "functions": [
-              {
-                "function": "minecraft:enchant_randomly",
-                "options": "#nova_structures:outreach"
-              }
-            ],
-            "name": "minecraft:book",
-            "weight": 1
-          },
-          {
-            "type": "empty",
-            "weight": 10
-          }
-        ]
-      }
+    }
   ],
   "functions": [
     {

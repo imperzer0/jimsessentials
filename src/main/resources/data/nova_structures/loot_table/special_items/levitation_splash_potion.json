@@ -16,9 +16,9 @@
                       "id": "minecraft:levitation",
                       "duration": 400
                     }
-                  ],
-                  "custom_name": "dnt_levitation"
-                }
+                  ]
+                },
+                "minecraft:item_name": "{'translate':'item.dnt.levitation_splash_potion', 'fallback':'Splash Potion of Levitation'}"
               }
             }
           ],

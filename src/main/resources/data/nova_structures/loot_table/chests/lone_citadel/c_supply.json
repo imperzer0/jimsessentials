@@ -118,7 +118,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "minecraft:lapis_lazuli",
+          "name": "minecraft:name_tag",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -132,7 +132,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "minecraft:leather"
+          "name": "minecraft:saddle"
         },
         {
           "type": "minecraft:item",
@@ -154,10 +154,10 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
-                "min": 5,
-                "max": 15
+                "min": 3,
+                "max": 10
               },
-              "options": "#nova_structures:structure/lone_citadel"
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -176,10 +176,10 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
-                "min": 5,
-                "max": 15
+                "min": 1,
+                "max": 10
               },
-              "options": "#nova_structures:structure/lone_citadel"
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -198,10 +198,10 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
-                "min": 5,
-                "max": 15
+                "min": 1,
+                "max": 10
               },
-              "options": "#nova_structures:structure/lone_citadel"
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -383,24 +383,6 @@
               "count": {
                 "min": 1,
                 "max": 5
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "name": "minecraft:emerald",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "max": 8,
-                "min": 3
               }
             }
           ]

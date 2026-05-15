@@ -11,7 +11,7 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/shrine_ominous"
+              "options": "#nova_structures:shrine"
             }
           ],
           "name": "minecraft:iron_pickaxe"
@@ -22,23 +22,10 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/shrine_ominous"
+              "options": "#nova_structures:shrine"
             }
           ],
-          "name": "minecraft:iron_sword",
-          "weight": 3
-        },
-		{
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 20,
-              "options": "#nova_structures:structure/shrine_ominous"
-            }
-          ],
-          "name": "minecraft:iron_spear",
-          "weight": 3
+          "name": "minecraft:iron_sword"
         },
         {
           "type": "minecraft:item",
@@ -46,11 +33,10 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/shrine_ominous"
+              "options": "#nova_structures:shrine"
             }
           ],
-          "name": "minecraft:iron_axe",
-          "weight": 3
+          "name": "minecraft:iron_axe"
         },
         {
           "type": "minecraft:item",
@@ -58,11 +44,10 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/shrine_ominous"
+              "options": "#nova_structures:shrine"
             }
           ],
-          "name": "minecraft:iron_boots",
-          "weight": 3
+          "name": "minecraft:iron_boots"
         },
         {
           "type": "minecraft:item",
@@ -70,19 +55,7 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/shrine_ominous"
-            }
-          ],
-          "name": "minecraft:book",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 5,
-              "options": "#nova_structures:spiteful"
+              "options": "#nova_structures:shrine"
             }
           ],
           "name": "minecraft:book"
@@ -161,7 +134,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:lapis_lazuli"
+          "name": "minecraft:name_tag"
         }
       ]
     },
@@ -245,31 +218,23 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "max": 20,
-                "min": 10
-              },
-              "options": "#nova_structures:structure/shrine_ominous"
-            }
-          ],
-          "name": "minecraft:book",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "max": 20,
-                "min": 10
-              },
-              "options": "#nova_structures:structure/shrine_ominous"
+              "options": "#nova_structures:traveler",
+              "function": "minecraft:enchant_randomly"
             }
           ],
           "name": "minecraft:book",
           "weight": 1
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 3
         }
       ],
       "rolls": 1

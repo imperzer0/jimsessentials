@@ -10,8 +10,8 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": {"floats": [721.0]},
-                "minecraft:item_name": {"translate":"item.dnt.end_castle_key", "fallback":"End Castle Key"}
+                "minecraft:custom_model_data": 721,
+                "minecraft:item_name": "{'translate':'item.dnt.end_castle_key', 'fallback':'End Castle Key'}"
               }
             }
           ]

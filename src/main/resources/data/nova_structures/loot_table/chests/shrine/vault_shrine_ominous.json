@@ -11,7 +11,7 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/shrine_ominous"
+              "options": "#nova_structures:shrine"
             }
           ],
           "name": "minecraft:diamond_pickaxe",
@@ -23,23 +23,11 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/shrine_ominous"
+              "options": "#nova_structures:shrine"
             }
           ],
           "name": "minecraft:diamond_sword",
-          "weight": 5
-        },
-		{
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 30,
-              "options": "#nova_structures:structure/shrine_ominous"
-            }
-          ],
-          "name": "minecraft:diamond_spear",
-          "weight": 5
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -47,11 +35,11 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/shrine_ominous"
+              "options": "#nova_structures:shrine"
             }
           ],
           "name": "minecraft:diamond_axe",
-          "weight": 5
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -59,11 +47,10 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/shrine_ominous"
+              "options": "#nova_structures:shrine"
             }
           ],
-          "name": "minecraft:diamond_helmet",
-          "weight": 3
+          "name": "minecraft:diamond_helmet"
         },
         {
           "type": "minecraft:item",
@@ -71,11 +58,10 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/shrine_ominous"
+              "options": "#nova_structures:shrine"
             }
           ],
-          "name": "minecraft:diamond_chestplate",
-          "weight": 3
+          "name": "minecraft:diamond_chestplate"
         },
         {
           "type": "minecraft:item",
@@ -83,11 +69,10 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/shrine_ominous"
+              "options": "#nova_structures:shrine"
             }
           ],
-          "name": "minecraft:diamond_leggings",
-          "weight": 3
+          "name": "minecraft:diamond_leggings"
         },
         {
           "type": "minecraft:item",
@@ -95,11 +80,11 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/shrine_ominous"
+              "options": "#nova_structures:shrine"
             }
           ],
           "name": "minecraft:diamond_boots",
-          "weight": 5
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -107,26 +92,11 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/shrine_ominous"
+              "options": "#nova_structures:shrine"
             }
           ],
           "name": "minecraft:book",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "max": 15,
-                "min": 5
-              },
-              "options": "#nova_structures:spiteful"
-            }
-          ],
-          "name": "minecraft:book",
-          "weight": 3
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -223,7 +193,7 @@
               "add": false
             }
           ],
-          "name": "minecraft:lapis_lazuli"
+          "name": "minecraft:name_tag"
         }
       ]
     },
@@ -294,10 +264,6 @@
           "functions": [
             {
               "options": "#nova_structures:traveler",
-              "function": "minecraft:enchant_randomly"
-            },
-            {
-              "options": "#nova_structures:spiteful",
               "function": "minecraft:enchant_randomly"
             }
           ],

@@ -108,7 +108,7 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 2,
-              "options": "#nova_structures:structure/nether"
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -119,7 +119,7 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 2,
-              "options": "#nova_structures:structure/nether"
+              "options": "#minecraft:on_random_loot"
             }
           ]
         }
@@ -188,12 +188,65 @@
       ],
       "rolls": 1.0
     },
-	  {
+	{
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "value": "nova_structures:charts/nether_keep"
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "decoration": "red_x",
+              "destination": "nova_structures:nether_keep",
+              "zoom": 4,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{'translate': 'item.dnt.filled_map.nether_keep', 'fallback': 'Nether Keep Map', 'italic': false}"
+              }
+            }
+          ],
+          "name": "minecraft:map"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "decoration": "red_x",
+              "destination": "nova_structures:nether_port",
+              "zoom": 4,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{'translate': 'item.dnt.filled_map.nether_port', 'fallback': 'Nether Port Map', 'italic': false}"
+              }
+            }
+          ],
+          "name": "minecraft:map"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "decoration": "red_x",
+              "destination": "nova_structures:nether_fortress",
+              "zoom": 4,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{'translate': 'item.dnt.filled_map.nether_fortress', 'fallback': 'Nether Fortress Map', 'italic': false}"
+              }
+            }
+          ],
+          "name": "minecraft:map"
         }
       ],
       "rolls": 1

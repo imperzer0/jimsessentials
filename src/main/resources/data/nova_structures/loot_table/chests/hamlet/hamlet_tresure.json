@@ -14,7 +14,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:leather"
+          "name": "minecraft:saddle"
         },
         {
           "type": "minecraft:item",
@@ -247,28 +247,24 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:empty",
-    	  "weight": 50
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_upgrade_smithing_template",
+		  "weight": 40
         },
 		{
           "type": "minecraft:item",
-          "name": "minecraft:netherite_upgrade_smithing_template",
-    		  "weight": 4
-        },
-    		{
-          "type": "minecraft:item",
           "name": "minecraft:snout_armor_trim_smithing_template",
-	   	    "weight": 1
+		  "weight": 10
         },
-    		{
+		{
           "type": "minecraft:item",
-          "name": "minecraft:piglin_banner_pattern",
-          "weight": 2
+		  "weight": 20,
+          "name": "minecraft:piglin_banner_pattern"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_pigstep",
-          "weight": 3
+		  "weight": 30,
+          "name": "minecraft:music_disc_pigstep"
         }
       ],
       "rolls": 1.0
@@ -277,8 +273,44 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "value": "nova_structures:charts/piglin_outstation"
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "decoration": "red_x",
+              "destination": "nova_structures:piglin_outstation",
+              "zoom": 4,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:map_color": 5973037,
+                "minecraft:item_name": "{'translate': 'item.dnt.filled_map.piglin_outstation', 'fallback': 'Piglin Outstation Map', 'italic': false}"
+              }
+            }
+          ],
+          "name": "minecraft:map"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "decoration": "red_x",
+              "destination": "nova_structures:bastion_remnant",
+              "zoom": 4,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:map_color": 3679277,
+                "minecraft:item_name": "{'translate': 'item.dnt.filled_map.bastion_remnant', 'fallback': 'Bastion Remnant Map', 'italic': false}"
+              }
+            }
+          ],
+          "name": "minecraft:map"
         }
       ],
       "rolls": 1

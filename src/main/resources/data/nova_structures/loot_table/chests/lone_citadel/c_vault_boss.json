@@ -118,7 +118,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather"
+          "name": "minecraft:saddle"
         },
         {
           "type": "minecraft:item",
@@ -189,14 +189,14 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "max": 40.0,
+                "max": 25.0,
                 "min": 10.0
               },
-              "options": "#nova_structures:structure/lone_citadel"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:diamond_helmet",
-          "weight": 5
+          "weight": 3
         },
 		    {
           "type": "minecraft:item",
@@ -205,10 +205,10 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "max": 40.0,
+                "max": 25.0,
                 "min": 10.0
               },
-              "options": "#nova_structures:structure/lone_citadel"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:diamond_chestplate",
@@ -221,10 +221,10 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "max": 40.0,
+                "max": 25.0,
                 "min": 10.0
               },
-              "options": "#nova_structures:structure/lone_citadel"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:diamond_leggings",
@@ -237,10 +237,10 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "max": 40.0,
+                "max": 25.0,
                 "min": 10.0
               },
-              "options": "#nova_structures:structure/lone_citadel"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:diamond_boots",
@@ -253,10 +253,10 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "max": 40.0,
+                "max": 25.0,
                 "min": 10.0
               },
-              "options": "#nova_structures:structure/lone_citadel"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:diamond_pickaxe",
@@ -269,40 +269,13 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "max": 40.0,
-                "min": 10.0
+                "max": 25.0,
+                "min": 15.0
               },
-              "options": "#nova_structures:structure/lone_citadel"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:diamond_axe",
-          "weight": 3
-        },
-		{
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "max": 40.0,
-                "min": 10.0
-              },
-              "options": "#nova_structures:structure/lone_citadel"
-            }
-          ],
-          "name": "minecraft:diamond_spear",
-          "weight": 3
-        },
-		{
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "options": "#nova_structures:aerials_bane",
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
-          "name": "minecraft:book",
           "weight": 3
         }
       ],
@@ -319,13 +292,17 @@
           "type": "minecraft:item",
           "functions": [
             {
+              "options": "#nova_structures:power",
+              "function": "minecraft:enchant_randomly"
+            },
+            {
               "function": "enchant_with_levels",
-              "levels": 45,
-              "options": "#nova_structures:structure/lone_citadel"
+              "levels": 10,
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:crossbow",
-          "weight": 100
+          "weight": 200
         }
       ],
       "rolls": 1.0

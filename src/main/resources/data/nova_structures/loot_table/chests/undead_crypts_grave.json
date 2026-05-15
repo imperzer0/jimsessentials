@@ -251,7 +251,7 @@
                   {
                     "type": "minecraft:item",
                     "weight": 2,
-                    "name": "minecraft:lapis_lazuli"
+                    "name": "minecraft:name_tag"
                   },
 				  {
                     "type": "minecraft:empty",
@@ -275,33 +275,10 @@
                           "min": -2.0,
                           "max": 5.0
                         },
-                        "options": "#nova_structures:structure/overworld"
+                        "options": "#minecraft:on_random_loot"
                       }
                     ],
                     "name": "minecraft:iron_sword"
-                  },
-				  {
-                    "type": "minecraft:item",
-                    "weight": 1,
-                    "functions": [
-                      {
-                        "function": "set_damage",
-                        "damage": {
-                          "min": 0.15,
-                          "max": 0.5
-                        }
-                      },
-                      {
-                        "function": "minecraft:enchant_with_levels",
-                        "levels": {
-                          "type": "minecraft:uniform",
-                          "min": -2.0,
-                          "max": 5.0
-                        },
-                        "options": "#nova_structures:structure/overworld"
-                      }
-                    ],
-                    "name": "minecraft:iron_spear"
                   },
                   {
                     "type": "minecraft:item",
@@ -321,7 +298,7 @@
                           "min": -2.0,
                           "max": 5.0
                         },
-                        "options": "#nova_structures:structure/overworld"
+                        "options": "#minecraft:on_random_loot"
                       }
                     ],
                     "name": "minecraft:iron_pickaxe"
@@ -344,57 +321,11 @@
                           "min": -2.0,
                           "max": 5.0
                         },
-                        "options": "#nova_structures:structure/overworld"
+                        "options": "#minecraft:on_random_loot"
                       }
                     ],
                     "name": "minecraft:iron_axe"
                   },
-				  {
-                    "type": "minecraft:item",
-                    "weight": 1,
-                    "functions": [
-                      {
-                        "function": "set_damage",
-                        "damage": {
-                          "min": 0.15,
-                          "max": 0.5
-                        }
-                      },
-                      {
-                        "function": "minecraft:enchant_with_levels",
-                        "levels": {
-                          "type": "minecraft:uniform",
-                          "min": -2.0,
-                          "max": 5.0
-                        },
-                        "options": "#nova_structures:structure/overworld"
-                      }
-                    ],
-                    "name": "minecraft:copper_sword"
-                  },
-				  {
-                    "type": "minecraft:item",
-                    "weight": 1,
-                    "functions": [
-                      {
-                        "function": "set_damage",
-                        "damage": {
-                          "min": 0.15,
-                          "max": 0.5
-                        }
-                      },
-                      {
-                        "function": "minecraft:enchant_with_levels",
-                        "levels": {
-                          "type": "minecraft:uniform",
-                          "min": -2.0,
-                          "max": 5.0
-                        },
-                        "options": "#nova_structures:structure/overworld"
-                      }
-                    ],
-                    "name": "minecraft:copper_spear"
-                  },
                   {
                     "type": "minecraft:item",
                     "weight": 1,
@@ -413,53 +344,7 @@
                           "min": -2.0,
                           "max": 5.0
                         },
-                        "options": "#nova_structures:structure/overworld"
-                      }
-                    ],
-                    "name": "minecraft:copper_pickaxe"
-                  },
-                  {
-                    "type": "minecraft:item",
-                    "weight": 1,
-                    "functions": [
-                      {
-                        "function": "set_damage",
-                        "damage": {
-                          "min": 0.15,
-                          "max": 0.5
-                        }
-                      },
-                      {
-                        "function": "minecraft:enchant_with_levels",
-                        "levels": {
-                          "type": "minecraft:uniform",
-                          "min": -2.0,
-                          "max": 5.0
-                        },
-                        "options": "#nova_structures:structure/overworld"
-                      }
-                    ],
-                    "name": "minecraft:copper_axe"
-                  },
-                  {
-                    "type": "minecraft:item",
-                    "weight": 1,
-                    "functions": [
-                      {
-                        "function": "set_damage",
-                        "damage": {
-                          "min": 0.15,
-                          "max": 0.5
-                        }
-                      },
-                      {
-                        "function": "minecraft:enchant_with_levels",
-                        "levels": {
-                          "type": "minecraft:uniform",
-                          "min": -2.0,
-                          "max": 5.0
-                        },
-                        "options": "#nova_structures:structure/overworld"
+                        "options": "#minecraft:on_random_loot"
                       }
                     ],
                     "name": "minecraft:chainmail_chestplate"
@@ -484,7 +369,7 @@
                       {
                         "function": "minecraft:enchant_with_levels",
                         "levels": 5,
-                        "options": "#nova_structures:structure/overworld"
+                        "options": "#nova_structures:shrine"
                       }
                     ],
                     "name": "minecraft:book",

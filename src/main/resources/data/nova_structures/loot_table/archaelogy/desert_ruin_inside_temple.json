@@ -63,7 +63,7 @@
             }
           ],
           "name": "minecraft:book",
-          "weight": 1
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -109,7 +109,7 @@
             }
           ],
           "name": "minecraft:book",
-          "weight": 3
+          "weight": 7
         },
         {
           "type": "minecraft:item",
@@ -123,8 +123,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:dune_armor_trim_smithing_template",
-          "weight": 5
+          "name": "minecraft:dune_armor_trim_smithing_template"
         },
         {
           "type": "minecraft:item",

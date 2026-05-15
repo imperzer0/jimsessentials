@@ -2,800 +2,157 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 1,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_sword",
-          "weight": 15,
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-		{
-          "type": "minecraft:item",
-          "name": "minecraft:copper_spear",
-          "weight": 15,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:copper_axe",
-          "weight": 15,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:copper_helmet",
-          "weight": 15,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:copper_chestplate",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:copper_leggings",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:copper_boots",
-          "weight": 15,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-		{
-          "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-		{
-          "type": "minecraft:item",
-          "name": "minecraft:iron_spear",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_axe",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_helmet",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_chestplate",
-          "weight": 6,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_leggings",
-          "weight": 6,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_boots",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:prismarine_crystals",
-          "weight": 20,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": {
-                "min": 4,
-                "max": 8
-              }
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "minecraft:cooked_cod",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:prismarine_shard",
-          "weight": 20,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": {
-                "min": 4,
-                "max": 8
-              }
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "minecraft:copper_block",
+          "weight": 4
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:lapis_lazuli",
-          "weight": 20,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 6
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "copper_ingot",
-          "weight": 20,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 7
-              }
-            }
-          ]
-        },
-		{
-          "type": "minecraft:item",
-          "name": "gold_ingot",
-          "weight": 17,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 7
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
-          "weight": 15,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 6
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "weight": 15,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:potion",
-          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_potion",
-              "id": "minecraft:long_water_breathing"
+              "id": "minecraft:strong_regeneration"
             }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:wet_sponge",
-          "weight": 15,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:dried_kelp",
-          "weight": 22,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:dried_kelp_block",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:gold_block",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:nautilus_shell",
-          "weight": 8
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:turtle_scute",
-          "weight": 6
-        },
-        {
-          "type": "minecraft:item",
-          "name": "book",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_sword",
-          "weight": 6,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-		{
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_spear",
-          "weight": 6,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_axe",
-          "weight": 6,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond",
-          "weight": 6,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_helmet",
-          "weight": 6,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_chestplate",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_leggings",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_boots",
-          "weight": 6,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
+          ],
+          "name": "minecraft:potion",
+          "weight": 10
         }
-      ]
+      ],
+      "rolls": 2
     },
     {
-      "rolls": {
-        "min": 1,
-        "max": 3
-      },
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:prismarine_crystals",
-          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 4,
-                "max": 8
+                "max": 5,
+                "min": 3
               }
             }
-          ]
+          ],
+          "name": "minecraft:sponge",
+          "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:prismarine_shard",
-          "weight": 20,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "options": "minecraft:depth_strider",
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "options": "minecraft:loyalty",
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
               "count": {
-                "min": 4,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:lapis_lazuli",
-          "weight": 20,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 6
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "copper_ingot",
-          "weight": 20,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 7
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
-          "weight": 15,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 6
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "weight": 15,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:potion",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:long_water_breathing"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:wet_sponge",
-          "weight": 15,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:dried_kelp",
-          "weight": 22,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:dried_kelp_block",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:gold_block",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:nautilus_shell",
-          "weight": 8
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:turtle_scute",
-          "weight": 6
-        },
-        {
-          "type": "minecraft:item",
-          "name": "book",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 30,
-                "max": 45
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
               },
-              "options": "#minecraft:on_random_loot"
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "minecraft:diamond",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond",
-          "weight": 3,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": {
-                "min": 1,
-                "max": 3
-              }
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "minecraft:gold_ingot",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_block",
+          "weight": 5
         }
-      ]
+      ],
+      "rolls": 2.0
     },
     {
-      "rolls": 1,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:empty",
-          "name": "",
-          "weight": 70
+          "weight": 30
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:axolotl_bucket",
-          "weight": 30,
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:axolotl/variant": "lucy"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:book",
-          "weight": 20,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#nova_structures:structure/underwater"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:trident",
-          "weight": 10
-        },
-		{
-          "type": "minecraft:item",
-          "name": "minecraft:copper_nautilus_armor",
-          "weight": 15
-        },
-		{
-          "type": "minecraft:item",
-          "name": "minecraft:iron_nautilus_armor",
-          "weight": 10
-        },
-		{
-          "type": "minecraft:item",
-          "name": "minecraft:golden_nautilus_armor",
-          "weight": 10
-        },
-		{
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_nautilus_armor",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:turtle_helmet",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:tide_armor_trim_smithing_template",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:heart_of_the_sea",
-          "weight": 3
+          "name": "minecraft:trident"
         }
-      ]
+      ],
+      "rolls": 2.0
     }
   ],
   "functions": [

@@ -284,8 +284,7 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 5,
+              "function": "minecraft:enchant_randomly",
               "options": "#nova_structures:outreach"
             }
           ],

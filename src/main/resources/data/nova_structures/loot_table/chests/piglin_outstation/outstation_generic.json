@@ -14,7 +14,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather"
+          "name": "minecraft:saddle"
         },
         {
           "type": "minecraft:item",
@@ -161,24 +161,8 @@
           ],
           "name": "minecraft:blackstone"
         },
-		{
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:iron_nugget"
-        },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "functions": [
             {
               "add": false,
@@ -194,7 +178,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "functions": [
             {
               "add": false,
@@ -281,7 +264,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:lapis_lazuli"
+          "name": "minecraft:name_tag"
         },
         {
           "type": "minecraft:item",

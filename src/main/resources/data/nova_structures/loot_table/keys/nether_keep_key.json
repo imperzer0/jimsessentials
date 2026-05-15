@@ -10,8 +10,8 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": {"floats": [719.0]},
-                "minecraft:item_name": {"translate":"item.dnt.nether_keep_key", "fallback":"Nether Keep Key"}
+                "minecraft:custom_model_data": 719,
+                "minecraft:item_name": "{'translate':'item.dnt.nether_keep_key', 'fallback':'Nether Keep Key'}"
               }
             }
           ]

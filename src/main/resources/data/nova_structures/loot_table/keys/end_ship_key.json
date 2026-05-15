@@ -10,8 +10,8 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": {"floats": [720.0]},
-                "minecraft:item_name": {"translate":"item.dnt.end_ship_key", "fallback":"End Ship Key"}
+                "minecraft:custom_model_data": 720,
+                "minecraft:item_name": "{'translate':'item.dnt.end_ship_key', 'fallback':'End Ship Key'}"
               }
             }
           ]

@@ -23,8 +23,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:map_color": 12158290,
-                "minecraft:rarity": "epic",
-                "minecraft:item_name": {"translate": "item.dnt.filled_map.illager_manor", "fallback": "Illager Manor Map", "italic": false}
+                "minecraft:item_name": "{'translate': 'item.dnt.filled_map.illager_manor', 'fallback': 'Illager Manor Map', 'italic': false}"
               }
             }
           ],

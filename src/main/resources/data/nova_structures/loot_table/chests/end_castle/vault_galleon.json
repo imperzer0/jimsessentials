@@ -76,7 +76,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/end"
+              "options": "#nova_structures:end_castle"
             }
           ],
           "name": "minecraft:diamond_helmet"
@@ -87,7 +87,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/end"
+              "options": "#nova_structures:end_castle"
             }
           ],
           "name": "minecraft:diamond_chestplate"
@@ -98,7 +98,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/end"
+              "options": "#nova_structures:end_castle"
             }
           ],
           "name": "minecraft:diamond_leggings"
@@ -109,7 +109,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/end"
+              "options": "#nova_structures:end_castle"
             }
           ],
           "name": "minecraft:diamond_boots"
@@ -120,21 +120,10 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#nova_structures:end_castle"
             }
           ],
           "name": "minecraft:diamond_sword"
-        },
-		{
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "enchant_with_levels",
-              "levels": 30,
-              "options": "#nova_structures:structure/end"
-            }
-          ],
-          "name": "minecraft:diamond_spear"
         },
         {
           "type": "minecraft:item",
@@ -142,7 +131,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#nova_structures:end_castle"
             }
           ],
           "name": "minecraft:diamond_axe"
@@ -153,7 +142,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/end"
+              "options": "#nova_structures:end_castle"
             }
           ],
           "name": "minecraft:crossbow"
@@ -229,13 +218,16 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:spire_armor_trim_smithing_template",
-          "weight": 2
+          "name": "minecraft:spire_armor_trim_smithing_template"
         },
         {
           "type": "item",
           "name": "minecraft:eye_armor_trim_smithing_template",
-          "weight": 2
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lodestone"
         },
         {
           "type": "minecraft:item",
@@ -246,25 +238,8 @@
             }
           ],
           "name": "minecraft:book",
-          "weight": 5
+          "weight": 4
         },
-		{
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "options": "#nova_structures:aerials_bane",
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
-          "name": "minecraft:book",
-          "weight": 5
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0.0,
-      "entries": [
         {
           "type": "minecraft:item",
           "functions": [

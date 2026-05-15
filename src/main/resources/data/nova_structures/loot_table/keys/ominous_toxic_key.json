@@ -10,8 +10,8 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": {"floats": [712.0]},
-                "minecraft:item_name": {"translate":"item.dnt.ominous_toxic_key", "fallback":"Ominous Toxic Key"}
+                "minecraft:custom_model_data": 712,
+                "minecraft:item_name": "{'translate':'item.dnt.ominous_toxic_key', 'fallback':'Ominous Toxic Key'}"
               }
             }
           ]

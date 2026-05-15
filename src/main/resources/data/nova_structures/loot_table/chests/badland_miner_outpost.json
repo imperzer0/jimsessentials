@@ -41,7 +41,7 @@
               "add": false
             }
           ],
-          "name": "minecraft:lapis_lazuli"
+          "name": "minecraft:name_tag"
         },
         {
           "type": "minecraft:item",

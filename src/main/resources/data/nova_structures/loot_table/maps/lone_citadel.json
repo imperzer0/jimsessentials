@@ -23,8 +23,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:map_color": 10801663,
-                "minecraft:rarity": "epic",
-                "minecraft:item_name": {"translate": "item.dnt.filled_map.lone_citadel", "fallback": "Lone Citadel Map", "italic": false}
+                "minecraft:item_name": "{'translate': 'item.dnt.filled_map.lone_citadel', 'fallback': 'Lone Citadel Map', 'italic': false}"
               }
             }
           ],

@@ -2,10 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {
-        "max": 1,
-        "min": 0
-      },
+      "rolls": 1,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -19,10 +16,7 @@
       ]
     },
     {
-      "rolls": {
-        "max": 2,
-        "min": 1
-      },
+      "rolls": 4,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -144,78 +138,13 @@
       ]
     },
     {
-      "rolls": {
-        "max": 2,
-        "min": 1
-      },
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                  "min": 2,
-                  "max": 4
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:emerald_block"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                  "min": 3,
-                  "max": 5
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:iron_block"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                  "min": 2,
-                  "max": 5
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:gold_block"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                  "min": 3,
-                  "max": 8
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:diamond"
-        }
-      ]
-    },
-    {
       "rolls": 1,
       "bonus_rolls": 0.0,
       "entries": [
         {
-		  "type": "minecraft:loot_table",
-		  "value": "nova_structures:charts/stray_fort"
-		}
+          "type": "item",
+          "name": "minecraft:wild_armor_trim_smithing_template"
+        }
       ]
     }
   ],

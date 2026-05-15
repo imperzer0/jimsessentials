@@ -44,7 +44,7 @@
                 "max": 4.0,
                 "min": 2.0
               },
-              "options": "#nova_structures:structure/illager"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:book"
@@ -68,7 +68,7 @@
                 "max": 5.0,
                 "min": 5.0
               },
-              "options": "#nova_structures:structure/illager"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:book"
@@ -98,7 +98,7 @@
                 "max": 22.0,
                 "min": 18.0
               },
-              "options": "#nova_structures:structure/illager"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:book"

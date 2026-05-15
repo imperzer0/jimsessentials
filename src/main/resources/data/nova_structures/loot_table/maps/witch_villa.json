@@ -23,8 +23,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:map_color": 10364070,
-                "minecraft:rarity": "rare",
-                "minecraft:item_name": {"translate": "item.dnt.filled_map.witch_villa", "fallback": "Witch Villa Map", "italic": false}
+                "minecraft:item_name": "{'translate': 'item.dnt.filled_map.witch_villa', 'fallback': 'Witch Villa Map', 'italic': false}"
               }
             }
           ],

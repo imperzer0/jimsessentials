@@ -10,8 +10,8 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 20,
-              "options": "#nova_structures:structure/shrine"
+              "levels": 30,
+              "options": "#nova_structures:shrine"
             }
           ],
           "name": "minecraft:diamond_pickaxe"
@@ -21,30 +21,19 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 20,
-              "options": "#nova_structures:structure/shrine"
+              "levels": 30,
+              "options": "#nova_structures:shrine"
             }
           ],
           "name": "minecraft:diamond_sword"
-        },
-		{
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 20,
-              "options": "#nova_structures:structure/shrine"
-            }
-          ],
-          "name": "minecraft:diamond_spear"
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 20,
-              "options": "#nova_structures:structure/shrine"
+              "levels": 30,
+              "options": "#nova_structures:shrine"
             }
           ],
           "name": "minecraft:diamond_axe"
@@ -54,8 +43,8 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 20,
-              "options": "#nova_structures:structure/shrine"
+              "levels": 30,
+              "options": "#nova_structures:shrine"
             }
           ],
           "name": "minecraft:diamond_helmet"
@@ -65,8 +54,8 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 20,
-              "options": "#nova_structures:structure/shrine"
+              "levels": 30,
+              "options": "#nova_structures:shrine"
             }
           ],
           "name": "minecraft:diamond_chestplate"
@@ -76,8 +65,8 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 20,
-              "options": "#nova_structures:structure/shrine"
+              "levels": 30,
+              "options": "#nova_structures:shrine"
             }
           ],
           "name": "minecraft:diamond_leggings"
@@ -87,8 +76,8 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 20,
-              "options": "#nova_structures:structure/shrine"
+              "levels": 30,
+              "options": "#nova_structures:shrine"
             }
           ],
           "name": "minecraft:diamond_boots",
@@ -100,7 +89,7 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/shrine"
+              "options": "#nova_structures:shrine"
             }
           ],
           "name": "minecraft:book"
@@ -121,11 +110,10 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/shrine"
+              "options": "#nova_structures:shrine"
             }
           ],
-          "name": "minecraft:iron_pickaxe",
-          "weight": 5
+          "name": "minecraft:iron_pickaxe"
         },
         {
           "type": "minecraft:item",
@@ -133,23 +121,10 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/shrine"
+              "options": "#nova_structures:shrine"
             }
           ],
-          "name": "minecraft:iron_sword",
-          "weight": 5
-        },
-		{
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 20,
-              "options": "#nova_structures:structure/shrine"
-            }
-          ],
-          "name": "minecraft:iron_spear",
-          "weight": 5
+          "name": "minecraft:iron_sword"
         },
         {
           "type": "minecraft:item",
@@ -157,11 +132,10 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/shrine"
+              "options": "#nova_structures:shrine"
             }
           ],
-          "name": "minecraft:iron_axe",
-          "weight": 3
+          "name": "minecraft:iron_axe"
         },
         {
           "type": "minecraft:item",
@@ -169,11 +143,10 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/shrine"
+              "options": "#nova_structures:shrine"
             }
           ],
-          "name": "minecraft:iron_helmet",
-          "weight": 3
+          "name": "minecraft:iron_helmet"
         },
         {
           "type": "minecraft:item",
@@ -181,11 +154,10 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/shrine"
+              "options": "#nova_structures:shrine"
             }
           ],
-          "name": "minecraft:iron_chestplate",
-          "weight": 3
+          "name": "minecraft:iron_chestplate"
         },
         {
           "type": "minecraft:item",
@@ -193,11 +165,10 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/shrine"
+              "options": "#nova_structures:shrine"
             }
           ],
-          "name": "minecraft:iron_leggings",
-          "weight": 3
+          "name": "minecraft:iron_leggings"
         },
         {
           "type": "minecraft:item",
@@ -205,11 +176,11 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/shrine"
+              "options": "#nova_structures:shrine"
             }
           ],
           "name": "minecraft:iron_boots",
-          "weight": 5
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -217,11 +188,10 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/shrine"
+              "options": "#nova_structures:shrine"
             }
           ],
-          "name": "minecraft:book",
-          "weight": 5
+          "name": "minecraft:book"
         },
         {
           "type": "minecraft:item",
@@ -232,18 +202,18 @@
             }
           ],
           "name": "minecraft:book",
-          "weight": 2
+          "weight": 1
         },
 		{
           "type": "minecraft:item",
           "functions": [
             {
-              "options": "#nova_structures:structure/overworld",
+              "options": "#minecraft:on_random_loot",
               "function": "minecraft:enchant_randomly"
             }
           ],
           "name": "minecraft:book",
-          "weight": 1
+          "weight": 3
         }
       ]
     },
@@ -324,7 +294,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 2,
+              "count": 3,
               "add": false
             }
           ],
@@ -339,7 +309,7 @@
               "add": false
             }
           ],
-          "name": "minecraft:lapis_lazuli"
+          "name": "minecraft:name_tag"
         }
       ]
     },

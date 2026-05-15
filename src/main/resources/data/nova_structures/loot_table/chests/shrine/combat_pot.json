@@ -4,7 +4,7 @@
     {
       "bonus_rolls": 0.0,
       "entries": [
-		    {
+		{
           "type": "minecraft:item",
           "functions": [
             {
@@ -99,32 +99,6 @@
           ],
           "name": "minecraft:lapis_lazuli",
           "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "ominous_bottle",
-          "functions": [
-            {
-              "function": "set_ominous_bottle_amplifier",
-              "amplifier": {
-                "max": 3,
-                "min": 1
-              }
-            }
-          ],
-          "weight": 7
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 5,
-              "options": "#nova_structures:spiteful"
-            }
-          ],
-          "name": "minecraft:book",
-          "weight": 1
         }
       ],
       "rolls": 1.0

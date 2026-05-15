@@ -14,4 +14,5 @@ Jim's Essentials
  * _```autoshutdown```: Shuts down a server when there are no players connected._
  * _```wooltostring```: Adds a crafting recipe of 4 strings from 1 wool. Can't be disabled._
  * _```wastelands```: A custom desert dimension with custom structures, both above and below bedrock._
+ * _```nova_structures```: Also known as [___Dungeons and Taverns___](https://modrinth.com/datapack/dungeons-and-taverns). Can not be disabled._
 

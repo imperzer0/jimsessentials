@@ -141,7 +141,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 25,
-              "options": "#nova_structures:structure/end"
+              "options": "#nova_structures:end_castle"
             }
           ]
         }

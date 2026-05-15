@@ -11,11 +11,10 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 10,
-              "options": "#nova_structures:structure/shrine"
+              "options": "#nova_structures:shrine"
             }
           ],
-          "name": "minecraft:copper_pickaxe",
-          "weight": 5
+          "name": "minecraft:iron_pickaxe"
         },
         {
           "type": "minecraft:item",
@@ -23,23 +22,10 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 10,
-              "options": "#nova_structures:structure/shrine"
+              "options": "#nova_structures:shrine"
             }
           ],
-          "name": "minecraft:copper_sword",
-          "weight": 5
-        },
-		{
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 10,
-              "options": "#nova_structures:structure/shrine"
-            }
-          ],
-          "name": "minecraft:copper_spear",
-          "weight": 5
+          "name": "minecraft:iron_sword"
         },
         {
           "type": "minecraft:item",
@@ -47,11 +33,10 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 10,
-              "options": "#nova_structures:structure/shrine"
+              "options": "#nova_structures:shrine"
             }
           ],
-          "name": "minecraft:copper_axe",
-          "weight": 3
+          "name": "minecraft:iron_axe"
         },
         {
           "type": "minecraft:item",
@@ -59,11 +44,10 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 10,
-              "options": "#nova_structures:structure/shrine"
+              "options": "#nova_structures:shrine"
             }
           ],
-          "name": "minecraft:copper_helmet",
-          "weight": 3
+          "name": "minecraft:iron_helmet"
         },
         {
           "type": "minecraft:item",
@@ -71,11 +55,10 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 10,
-              "options": "#nova_structures:structure/shrine"
+              "options": "#nova_structures:shrine"
             }
           ],
-          "name": "minecraft:copper_chestplate",
-          "weight": 3
+          "name": "minecraft:iron_chestplate"
         },
         {
           "type": "minecraft:item",
@@ -83,11 +66,10 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 10,
-              "options": "#nova_structures:structure/shrine"
+              "options": "#nova_structures:shrine"
             }
           ],
-          "name": "minecraft:copper_leggings",
-          "weight": 3
+          "name": "minecraft:iron_leggings"
         },
         {
           "type": "minecraft:item",
@@ -95,11 +77,11 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 10,
-              "options": "#nova_structures:structure/shrine"
+              "options": "#nova_structures:shrine"
             }
           ],
-          "name": "minecraft:copper_boots",
-          "weight": 5
+          "name": "minecraft:iron_boots",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -110,18 +92,18 @@
             }
           ],
           "name": "minecraft:book",
-          "weight": 3
+          "weight": 1
         },
-		    {
+		{
           "type": "minecraft:item",
           "functions": [
             {
-              "options": "#nova_structures:structure/overworld",
+              "options": "#minecraft:on_random_loot",
               "function": "minecraft:enchant_randomly"
             }
           ],
           "name": "minecraft:book",
-          "weight": 1
+          "weight": 3
         }
       ]
     },
@@ -201,7 +183,7 @@
               "add": false
             }
           ],
-          "name": "minecraft:copper_ingot"
+          "name": "minecraft:iron_ingot"
         },
         {
           "type": "minecraft:item",

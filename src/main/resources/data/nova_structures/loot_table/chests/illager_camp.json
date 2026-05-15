@@ -26,7 +26,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:lapis_lazuli"
+          "name": "minecraft:name_tag"
         },
         {
           "type": "minecraft:item",
@@ -95,13 +95,24 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "value": "nova_structures:charts/pillager_outpost",
-		  "weight": 1
-        },
-		{
-          "type": "minecraft:loot_table",
-          "value": "nova_structures:charts/illager_barracks"
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "decoration": "mansion",
+              "destination": "minecraft:pillager_outpost",
+              "zoom": 4,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:map_color": 5973037,
+                "minecraft:item_name": "{'translate': 'item.dnt.filled_map.pillager_outpost', 'fallback': 'Pillager Outpost Map', 'italic': false}"
+              }
+            }
+          ],
+          "name": "minecraft:map"
         }
       ]
     }

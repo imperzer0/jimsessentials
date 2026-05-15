@@ -10,8 +10,8 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": {"floats": [713.0]},
-                "minecraft:item_name": {"translate":"item.dnt.citadel_key", "fallback":"Citadel Key"}
+                "minecraft:custom_model_data": 713,
+                "minecraft:item_name": "{'translate':'item.dnt.citadel_key', 'fallback':'Citadel Key'}"
               }
             }
           ]

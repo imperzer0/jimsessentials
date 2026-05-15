@@ -6,6 +6,16 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:water_breathing"
+            }
+          ],
+          "name": "minecraft:lingering_potion"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:experience_bottle"
         },
         {
@@ -15,20 +25,6 @@
         {
           "type": "minecraft:loot_table",
           "value": "nova_structures:special_items/curse_linger"
-        }
-      ],
-      "rolls": 2.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "nova_structures:special_items/water_breathing_short_splash_potion"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "nova_structures:special_items/water_breathing_long_splash_potion"
         }
       ],
       "rolls": 1.0

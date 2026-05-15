@@ -6,7 +6,7 @@
       "entries": [
 		{
           "type": "minecraft:empty",
-          "weight": 6
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -15,7 +15,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2,
+                "max": 3,
                 "min": 1
               },
               "function": "minecraft:set_count"
@@ -30,7 +30,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1,
+                "max": 3,
                 "min": 1
               },
               "function": "minecraft:set_count"
@@ -64,11 +64,10 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:lapis_lazuli"
+          "name": "minecraft:name_tag"
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "functions": [
             {
               "add": false,
@@ -97,69 +96,8 @@
           ],
           "name": "minecraft:golden_carrot"
         },
-		{
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 6.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:gilded_blackstone"
-        },
-		{
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:iron_ingot"
-        },
-		{
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:iron_nugget"
-        },
-		{
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:iron_block"
-        },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "functions": [
             {
               "add": false,
@@ -175,13 +113,12 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "functions": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 19.0,
+                "max": 9.0,
                 "min": 3.0
               },
               "function": "minecraft:set_count"
@@ -221,8 +158,18 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:snout_armor_trim_smithing_template"
-        },
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
 		{
+          "type": "minecraft:empty",
+          "weight": 25
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:netherite_upgrade_smithing_template"
         }

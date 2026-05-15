@@ -2,10 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {
-        "max": 1,
-        "min": 0
-      },
+      "rolls": 1,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -15,16 +12,10 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 5.0,
-                "max": 15.0
+                "min": -1.0,
+                "max": 5.0
               },
-              "options": "#nova_structures:structure/snowy",
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.5
-                }
-              ]
+              "options": "#minecraft:on_random_loot"
             },
             {
               "function": "set_damage",
@@ -143,34 +134,6 @@
             }
           ],
           "name": "minecraft:feather"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 4
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:iron_ingot"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 4
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:iron_nugget"
         }
       ]
     }

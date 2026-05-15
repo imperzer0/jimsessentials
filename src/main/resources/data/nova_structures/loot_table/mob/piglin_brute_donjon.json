@@ -15,8 +15,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "nova_structures:keys/piglin_donjon_key",
-          "weight": 3
+          "value": "nova_structures:keys/piglin_donjon_key"
         },
         {
           "type": "minecraft:empty",

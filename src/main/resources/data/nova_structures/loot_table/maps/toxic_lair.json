@@ -23,8 +23,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:map_color": 6791016,
-                "minecraft:rarity": "epic",
-                "minecraft:item_name": {"translate": "item.dnt.filled_map.toxic_lair", "fallback": "Toxic Lair Map", "italic": false}
+                "minecraft:item_name": "{'translate': 'item.dnt.filled_map.toxic_lair', 'fallback': 'Toxic Lair Map', 'italic': false}"
               }
             }
           ],

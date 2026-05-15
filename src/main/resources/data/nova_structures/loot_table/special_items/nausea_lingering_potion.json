@@ -16,9 +16,9 @@
                       "id": "minecraft:nausea",
                       "duration": 400
                     }
-                  ],
-                  "custom_name": "dnt_nausea"
-                }
+                  ]
+                },
+                "minecraft:item_name": "{'translate':'item.dnt.nausea_lingering_potion', 'fallback':'Lingering Potion of Dizziness'}"
               }
             }
           ],

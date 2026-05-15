@@ -9,10 +9,11 @@
           "functions": [
             {
               "function": "minecraft:set_potion",
-              "id": "minecraft:weakness"
+              "id": "minecraft:slowness"
             }
           ],
-          "name": "minecraft:lingering_potion"
+          "name": "minecraft:lingering_potion",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -22,17 +23,8 @@
               "id": "minecraft:slowness"
             }
           ],
-          "name": "minecraft:lingering_potion"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:slowness"
-            }
-          ],
-          "name": "minecraft:tipped_arrow"
+          "name": "minecraft:tipped_arrow",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -42,14 +34,9 @@
               "id": "minecraft:weakness"
             }
           ],
-          "name": "minecraft:tipped_arrow"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+          "name": "minecraft:tipped_arrow",
+          "weight": 2
+        },
         {
           "type": "item",
           "name": "minecraft:firework_rocket",

@@ -17,13 +17,11 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:redstone",
-          "weight": 3
+          "name": "minecraft:redstone"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:compass",
-          "weight": 3
+          "name": "minecraft:compass"
         },
         {
           "type": "minecraft:item",
@@ -38,8 +36,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:iron_ingot",
-          "weight": 3
+          "name": "minecraft:iron_ingot"
         },
         {
           "type": "minecraft:item",
@@ -54,8 +51,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:experience_bottle",
-          "weight": 3
+          "name": "minecraft:experience_bottle"
         },
         {
           "type": "minecraft:item",
@@ -96,21 +92,6 @@
             }
           ],
           "name": "minecraft:book"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "options": "#nova_structures:structure/lone_citadel",
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "max": 30,
-                "min": 25
-              }
-            }
-          ],
-          "name": "minecraft:book",
-          "weight": 3
         }
       ],
       "rolls": 2.0
@@ -203,24 +184,6 @@
           "type": "minecraft:item",
           "weight": 5,
           "name": "minecraft:writable_book"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "name": "minecraft:emerald",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "max": 5,
-                "min": 3
-              }
-            }
-          ]
         }
       ]
     }

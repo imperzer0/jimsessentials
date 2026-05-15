@@ -152,60 +152,6 @@
           "value": "nova_structures:keys/ominous_toxic_key"
         }
       ]
-    },
-	{
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "nova_structures:keys/cave_chamber_key"
-        }
-      ]
-    },
-	{
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "nova_structures:keys/sealing_key"
-        }
-      ]
-    },
-	{
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "nova_structures:keys/ominous_sealing_key"
-        }
-      ]
-    },
-	{
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "nova_structures:keys/boss_sealing_key"
-        }
-      ]
-    },
-	{
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "nova_structures:keys/nether_port_key"
-        }
-      ]
-    },
-	{
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "nova_structures:keys/hamlet_key"
-        }
-      ]
     }
   ],
   "functions": [

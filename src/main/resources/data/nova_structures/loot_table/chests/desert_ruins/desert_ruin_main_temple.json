@@ -241,10 +241,14 @@
         }
       ]
     },
-	  {
+	{
       "bonus_rolls": 0.0,
       "rolls": 1,
       "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dune_armor_trim_smithing_template"
+        },
         {
           "type": "minecraft:item",
           "functions": [
@@ -257,21 +261,7 @@
           "weight": 1
         }
       ]
-    },
-    {
-        "bonus_rolls": 0.0,
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:dune_armor_trim_smithing_template"
-          },
-          {
-            "type": "empty",
-            "weight": 3
-          }
-        ]
-      }
+    }
   ],
   "functions": [
     {

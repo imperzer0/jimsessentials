@@ -10,8 +10,8 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": {"floats": [723.0]},
-                "minecraft:item_name": {"translate":"item.dnt.toxic_boss_key", "fallback":"Toxic Boss Key"}
+                "minecraft:custom_model_data": 723,
+                "minecraft:item_name": "{'translate':'item.dnt.toxic_boss_key', 'fallback':'Toxic Boss Key'}"
               }
             }
           ]

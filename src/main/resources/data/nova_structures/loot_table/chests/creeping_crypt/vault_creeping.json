@@ -12,7 +12,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/creeping_crypt"
+              "options": "#minecraft:non_treasure"
             }
           ],
           "weight": 2
@@ -24,7 +24,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/creeping_crypt"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "weight": 2
@@ -36,7 +36,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/creeping_crypt"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "weight": 2
@@ -48,7 +48,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/creeping_crypt"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "weight": 2
@@ -60,7 +60,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/creeping_crypt"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "weight": 2

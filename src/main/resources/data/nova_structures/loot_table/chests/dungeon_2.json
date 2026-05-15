@@ -98,7 +98,7 @@
                       {
                         "function": "minecraft:enchant_with_levels",
                         "levels": 5,
-                        "options": "#nova_structures:structure/overworld"
+                        "options": "#nova_structures:shrine"
                       }
                     ],
                     "name": "minecraft:book",

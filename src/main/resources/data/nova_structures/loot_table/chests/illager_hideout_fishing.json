@@ -15,7 +15,7 @@
                 "max": 5.0,
                 "min": 0.0
               },
-              "options": "#nova_structures:structure/illager"
+              "options": "#minecraft:on_random_loot"
             },
             {
               "function": "set_damage",

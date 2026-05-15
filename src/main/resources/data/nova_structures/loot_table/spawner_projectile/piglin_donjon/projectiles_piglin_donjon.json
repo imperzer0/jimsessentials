@@ -6,17 +6,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:fire_charge"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+          "name": "minecraft:spectral_arrow"
+        },
         {
           "type": "minecraft:item",
-          "name": "minecraft:spectral_arrow"
+          "name": "minecraft:fire_charge"
         }
       ],
       "rolls": 1.0

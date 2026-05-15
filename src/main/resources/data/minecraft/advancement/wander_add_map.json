@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:root",
+  "criteria": {
+    "wandering": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nova_structures:choose_wander"
+  }
+}

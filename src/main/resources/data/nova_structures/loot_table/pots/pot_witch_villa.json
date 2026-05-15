@@ -341,7 +341,7 @@
                 "min": 1.0,
                 "max": 5.0
               },
-              "options": "#nova_structures:structure/overworld"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:book"

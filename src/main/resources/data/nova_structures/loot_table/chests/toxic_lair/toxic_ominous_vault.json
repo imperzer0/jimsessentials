@@ -108,11 +108,8 @@
                 "functions": [
                     {
                         "function": "enchant_with_levels",
-                        "levels": {
-                            "max": 15,
-                            "min": 10
-                        },
-                        "options": "#nova_structures:structure/toxic_lair"
+                        "levels": 10,
+                        "options": "#nova_structures:toxic"
                     }
                 ],
                 "weight": 3
@@ -123,11 +120,8 @@
                 "functions": [
                     {
                         "function": "enchant_with_levels",
-                        "levels": {
-                            "max": 25,
-                            "min": 15
-                        },
-                        "options": "#nova_structures:structure/toxic_lair"
+                        "levels": 10,
+                        "options": "#nova_structures:toxic"
                     }
                 ],
                 "weight": 10
@@ -138,11 +132,8 @@
                 "functions": [
                     {
                         "function": "enchant_with_levels",
-                        "levels": {
-                            "max": 25,
-                            "min": 10
-                        },
-                        "options": "#nova_structures:structure/toxic_lair"
+                        "levels": 10,
+                        "options": "#nova_structures:toxic"
                     }
                 ],
                 "weight": 3
@@ -153,11 +144,8 @@
                 "functions": [
                     {
                         "function": "enchant_with_levels",
-                        "levels": {
-                            "max": 15,
-                            "min": 10
-                        },
-                        "options": "#nova_structures:structure/toxic_lair"
+                        "levels": 10,
+                        "options": "#nova_structures:toxic"
                     }
                 ],
                 "weight": 3
@@ -169,7 +157,7 @@
                     {
                         "function": "enchant_with_levels",
                         "levels": 25,
-                        "options": "#nova_structures:structure/toxic_lair"
+                        "options": "#nova_structures:toxic"
                     }
                 ],
                 "weight": 3
@@ -181,7 +169,7 @@
                     {
                         "function": "enchant_with_levels",
                         "levels": 15,
-                        "options": "#nova_structures:structure/toxic_lair"
+                        "options": "#nova_structures:toxic"
                     }
                 ],
                 "weight": 5

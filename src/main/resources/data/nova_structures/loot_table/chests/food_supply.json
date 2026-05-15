@@ -104,7 +104,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:leather"
+          "name": "minecraft:saddle"
         }
       ]
     }

@@ -7,11 +7,17 @@
           "type": "minecraft:item",
           "functions": [
             {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Dolphin power go brrrrr"
+              },
+              "target": "item_name"
+            },
+            {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:potion_contents": {
                   "custom_color": 8954814,
-                  "custom_name": "dnt_dolphins_grace",
                   "custom_effects": [
                     {
                       "id": "minecraft:dolphins_grace",

@@ -170,6 +170,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:creeper_head"
+        },
+		    {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:keys/creeper_key",
+          "weight": 5
         }
       ],
       "rolls": 1.0
