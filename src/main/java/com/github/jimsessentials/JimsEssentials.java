@@ -32,7 +32,7 @@ public class JimsEssentials
     private static void common_setup(final FMLCommonSetupEvent event)
     {
         event.enqueueWork(() -> {
-            WastelandPortal.Instance().register();
+            WastelandPortal.Instance();
         });
     }
 }

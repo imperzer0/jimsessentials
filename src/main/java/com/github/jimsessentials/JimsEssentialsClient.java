@@ -1,5 +1,6 @@
 package com.github.jimsessentials;
 
+import com.github.jimsessentials.dimensions.wastelands.portal.WastelandPortal;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -27,5 +28,6 @@ public class JimsEssentialsClient
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event)
     {
+        WastelandPortal.Instance().register();
     }
 }
