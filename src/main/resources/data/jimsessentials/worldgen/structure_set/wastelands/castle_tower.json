@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "jimsessentials:wastelands/castle_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 13,
+    "separation": 9,
+    "spread_type": "linear",
+    "salt": 483769375
+  }
+}

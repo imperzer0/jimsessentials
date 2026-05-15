@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "jimsessentials:wastelands/bedrock_hole",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 20,
+    "separation": 10,
+    "spread_type": "linear",
+    "salt": 39563581
+  }
+}

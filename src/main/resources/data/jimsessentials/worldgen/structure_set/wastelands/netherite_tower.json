@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "jimsessentials:wastelands/netherite_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 10,
+    "spread_type": "linear",
+    "salt": 69827864
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "jimsessentials:wastelands/copper_well",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 10,
+    "separation": 1,
+    "spread_type": "linear",
+    "salt": 483857394
+  }
+}

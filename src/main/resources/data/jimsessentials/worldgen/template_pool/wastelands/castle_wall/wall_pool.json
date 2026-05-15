@@ -1,0 +1,93 @@
+{
+  "name": "jimsessentials:wastelands/castle_wall/wall_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "": "placed for sure",
+      "weight": 1,
+      "element": {
+        "location": "jimsessentials:wastelands/castle/castle_wall",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "jimsessentials:wastelands/castle/castle_wall_next",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "": "terminating",
+      "weight": 19,
+      "element": {
+        "location": "jimsessentials:wastelands/castle/castle_wall_ruined",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "": "placed once",
+      "weight": 19,
+      "element": {
+        "location": "jimsessentials:wastelands/castle/castle_tower_tail",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "": "placed for sure",
+      "weight": 1,
+      "element": {
+        "location": "jimsessentials:wastelands/castle/castle_wall_other",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "jimsessentials:wastelands/castle/castle_wall_other_next",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "": "placed once",
+      "weight": 19,
+      "element": {
+        "location": "jimsessentials:wastelands/castle/castle_tower_other_tail",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "": "placed for sure",
+      "weight": 1,
+      "element": {
+        "location": "jimsessentials:wastelands/castle/castle_tower_other_keep",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "jimsessentials:wastelands/castle/castle_wall_other_short",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
