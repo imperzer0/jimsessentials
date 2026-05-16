@@ -1,11 +1,11 @@
 {
-  "name": "jimsessentials:wastelands/castle_wall/wall_pool",
+  "name": "jimsessentials:wastelands/castle_wall/wall_other_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "jimsessentials:wastelands/castle/castle_wall",
+        "location": "jimsessentials:wastelands/castle/castle_wall_other",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
