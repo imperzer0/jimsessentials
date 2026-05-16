@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "jimsessentials:wastelands/bunker",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"spacing": 20,
+		"separation": 5,
+		"salt": 6798544,
+		"type": "minecraft:random_spread"
+	}
+}
