@@ -1,5 +1,6 @@
 package com.github.jimsessentials;
 
+import com.github.jimsessentials.dimensions.wastelands.portal.WastelandPortal;
 import com.github.jimsessentials.modules.autoshutdown.AutoShutdown;
 import com.github.jimsessentials.config.ServerConfig;
 import net.neoforged.api.distmarker.Dist;
@@ -31,5 +32,6 @@ public class JimsEssentialsServer
 
         // Register AutoShutdown event handlers
         if (ServerConfig.AutoShutdown.enabled()) NeoForge.EVENT_BUS.register(AutoShutdown.Instance());
+        if (ServerConfig.Dimensions.Wastelands.accessible()) WastelandPortal.Instance().register();
     }
 }

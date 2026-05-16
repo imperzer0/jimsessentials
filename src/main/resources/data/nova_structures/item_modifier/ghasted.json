@@ -1,0 +1,9 @@
+[
+  {
+    "add": false,
+    "enchantments": {
+      "nova_structures:ghasted": 1.0
+    },
+    "function": "minecraft:set_enchantments"
+  }
+]

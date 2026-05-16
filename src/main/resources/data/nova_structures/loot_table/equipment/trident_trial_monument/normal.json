@@ -1,0 +1,374 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.7,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:diamond",
+                            "pattern": "minecraft:tide"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "options": "minecraft:thorns",
+                        "function": "minecraft:enchant_randomly",
+                        "conditions": [
+                          {
+                            "condition": "random_chance",
+                            "chance": 0.3
+                          }
+                        ]
+                      }
+                    ],
+                    "name": "minecraft:copper_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.7,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:diamond",
+                            "pattern": "minecraft:tide"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "options": "minecraft:thorns",
+                        "function": "minecraft:enchant_randomly",
+                        "conditions": [
+                          {
+                            "condition": "random_chance",
+                            "chance": 0.3
+                          }
+                        ]
+                      }
+                    ],
+                    "name": "minecraft:copper_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              },
+			  {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.7,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:diamond",
+                            "pattern": "minecraft:tide"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "options": "minecraft:thorns",
+                        "function": "minecraft:enchant_randomly",
+                        "conditions": [
+                          {
+                            "condition": "random_chance",
+                            "chance": 0.3
+                          }
+                        ]
+                      }
+                    ],
+                    "name": "minecraft:copper_leggings"
+                  }
+                ],
+                "rolls": 1.0
+              },
+			  {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.7,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:diamond",
+                            "pattern": "minecraft:tide"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "options": "minecraft:thorns",
+                        "function": "minecraft:enchant_randomly",
+                        "conditions": [
+                          {
+                            "condition": "random_chance",
+                            "chance": 0.3
+                          }
+                        ]
+                      }
+                    ],
+                    "name": "minecraft:copper_boots"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.7,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:copper_axe"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          },
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.5,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:tide"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "options": "minecraft:thorns",
+                        "function": "minecraft:enchant_randomly",
+                        "conditions": [
+                          {
+                            "condition": "random_chance",
+                            "chance": 0.3
+                          }
+                        ]
+                      }
+                    ],
+                    "name": "minecraft:turtle_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.5,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:tide"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "options": "minecraft:thorns",
+                        "function": "minecraft:enchant_randomly",
+                        "conditions": [
+                          {
+                            "condition": "random_chance",
+                            "chance": 0.3
+                          }
+                        ]
+                      }
+                    ],
+                    "name": "minecraft:diamond_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              },
+			  {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.5,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:tide"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "options": "minecraft:thorns",
+                        "function": "minecraft:enchant_randomly",
+                        "conditions": [
+                          {
+                            "condition": "random_chance",
+                            "chance": 0.3
+                          }
+                        ]
+                      }
+                    ],
+                    "name": "minecraft:diamond_leggings"
+                  }
+                ],
+                "rolls": 1.0
+              },
+			  {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.5,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:tide"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "options": "minecraft:thorns",
+                        "function": "minecraft:enchant_randomly",
+                        "conditions": [
+                          {
+                            "condition": "random_chance",
+                            "chance": 0.3
+                          }
+                        ]
+                      }
+                    ],
+                    "name": "minecraft:diamond_boots"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.5,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:trident",
+                    "weight": 3
+                  },
+				  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_axe",
+					"functions": [
+                      {
+                        "function": "minecraft:enchant_randomly"
+                      }
+                    ],
+                    "weight": 3
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "minecraft:enchant_randomly"
+                      }
+                    ],
+                    "name": "minecraft:trident"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          }
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

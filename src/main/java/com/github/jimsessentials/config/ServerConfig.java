@@ -1,5 +1,6 @@
 package com.github.jimsessentials.config;
 
+import com.github.jimsessentials.dimensions.wastelands.DIM_Wastelands;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.config.ModConfig;
 import net.neoforged.neoforge.common.ModConfigSpec;
@@ -30,6 +31,22 @@ public class ServerConfig
         }
     }
 
+    public static class Dimensions
+    {
+        public static class Wastelands
+        {
+            private static final String ID = DIM_Wastelands.ID;
+
+
+            private static ModConfigSpec.BooleanValue accessible;
+
+            public static Boolean accessible()
+            {
+                return accessible.get();
+            }
+        }
+    }
+
     private static final ModConfigSpec spec;
 
     static
@@ -41,12 +58,18 @@ public class ServerConfig
         // right before the field is about to be used, and the way my class was set up made sure
         // that it calls .build() and then my .define() methods
         // Thus, manual static init block it is!
+
         AutoShutdown.enabled = Builder
                 .define("modules." + AutoShutdown.ID + ".enabled", false);
         AutoShutdown.delay = Builder
                 .comment(" Keep the server running for this many ticks after the last player has left.",
                         " The default is 10 minutes.")
                 .define("modules." + AutoShutdown.ID + ".delay", 12000); // 10 min
+
+        Dimensions.Wastelands.accessible = Builder
+                .comment(" Defines whether the wastelands dimension is accessible via portals")
+                .define("modules.dimensions." + Dimensions.Wastelands.ID + ".accessible", false);
+
         spec = Builder.build();
     }
 

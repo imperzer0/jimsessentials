@@ -1,0 +1,15 @@
+{
+  "name": "jimsessentials:wastelands/hanging_corridor/start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "jimsessentials:wastelands/hanging_corridor/hanging_corridor",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

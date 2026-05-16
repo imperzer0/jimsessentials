@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "jimsessentials:wastelands/undead_crypt",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"spacing": 21,
+		"separation": 6,
+		"salt": 96586859,
+		"type": "minecraft:random_spread"
+	}
+}

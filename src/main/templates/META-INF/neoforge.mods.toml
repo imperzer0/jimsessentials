@@ -93,3 +93,7 @@ A collection of features for small SMP servers
 # stop your mod loading on the server for example.
 #[features.${mod_id}]
 #openGLVersion="[3.2,)"
+
+
+[[mixins]]
+config = "cpapireforged.mixins.json"

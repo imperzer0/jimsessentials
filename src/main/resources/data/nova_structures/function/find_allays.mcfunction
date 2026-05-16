@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:allay,predicate=nova_structures:allay_can_convert,distance=..6,tag=!converted] at @s run function nova_structures:allayconvert

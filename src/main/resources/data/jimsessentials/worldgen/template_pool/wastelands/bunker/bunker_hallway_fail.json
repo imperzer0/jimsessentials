@@ -1,0 +1,15 @@
+{
+	"name": "jimsessentials:wastelands/bunker/bunker_hallway_fail",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "jimsessentials:wastelands/bunker/bunker_underground_hallway_fail",
+				"projection": "rigid",
+				"processors": "jimsessentials:wastelands/bunker_degradation"
+			}
+		}
+	]
+}

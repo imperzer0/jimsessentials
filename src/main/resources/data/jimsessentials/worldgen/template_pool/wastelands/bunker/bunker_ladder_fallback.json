@@ -1,0 +1,15 @@
+{
+	"name": "jimsessentials:wastelands/bunker/bunker_ladder_fallback",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "jimsessentials:wastelands/bunker/bunker_underground_ladder_fallback_room",
+				"projection": "rigid",
+				"processors": "jimsessentials:wastelands/bunker_degradation"
+			}
+		}
+	]
+}
