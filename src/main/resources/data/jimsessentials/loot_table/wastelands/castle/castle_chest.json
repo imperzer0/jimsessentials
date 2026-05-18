@@ -436,5 +436,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:chests/ancient_city"
+  "random_sequence": "jimsessentials:wastelands/castle/castle_chest"
 }

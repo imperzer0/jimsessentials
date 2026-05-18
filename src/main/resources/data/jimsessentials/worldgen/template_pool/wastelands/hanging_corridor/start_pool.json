@@ -5,8 +5,8 @@
     {
       "weight": 1,
       "element": {
-        "location": "jimsessentials:wastelands/hanging_corridor/hanging_corridor",
-        "processors": "minecraft:empty",
+        "location": "jimsessentials:wastelands/hanging_corridor/intersection",
+        "processors": "jimsessentials:wastelands/corridor_degradation",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }

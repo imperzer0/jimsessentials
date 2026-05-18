@@ -1,13 +1,17 @@
 {
   "type": "minecraft:jigsaw",
   "start_pool": "jimsessentials:wastelands/hanging_corridor/start_pool",
-  "size": 2,
-  "max_distance_from_center": 80,
+  "size": 10,
+  "max_distance_from_center": 100,
   "biomes": "#jimsessentials:has_structure/wastelands/hanging_corridor",
   "step": "underground_structures",
   "start_height": {
-    "absolute": -67
+    "absolute": -72
   },
   "use_expansion_hack": false,
-  "spawn_overrides": {}
+  "spawn_overrides": {},
+  "dimension_padding": {
+    "top": 290,
+    "bottom": 0
+  }
 }
