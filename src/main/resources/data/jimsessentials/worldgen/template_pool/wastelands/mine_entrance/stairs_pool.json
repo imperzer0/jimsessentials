@@ -1,11 +1,11 @@
 {
-  "name": "jimsessentials:wastelands/mine_entrance/start_pool",
-  "fallback": "minecraft:empty",
+  "name": "jimsessentials:wastelands/mine_entrance/stairs_pool",
+  "fallback": "jimsessentials:wastelands/mine_entrance/edge_pool",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "jimsessentials:wastelands/mine_entrance/mine_entrance",
+        "location": "jimsessentials:wastelands/mine_entrance/stairs",
         "processors": "jimsessentials:wastelands/mine_entrance_degradation",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

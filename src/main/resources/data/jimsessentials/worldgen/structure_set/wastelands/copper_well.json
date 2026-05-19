@@ -7,6 +7,10 @@
   ],
   "placement": {
     "type": "minecraft:random_spread",
+    "exclusion_zone": {
+      "other_set": "jimsessentials:wastelands/mine_entrance",
+      "chunk_count": 1
+    },
     "spacing": 10,
     "separation": 1,
     "spread_type": "linear",
