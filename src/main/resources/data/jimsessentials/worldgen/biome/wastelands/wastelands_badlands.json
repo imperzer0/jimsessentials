@@ -97,23 +97,9 @@
   "has_precipitation": false,
   "spawn_costs": {},
   "spawners": {
-    "ambient": [
-      {
-        "type": "minecraft:bat",
-        "maxCount": 8,
-        "minCount": 8,
-        "weight": 10
-      }
-    ],
+    "ambient": [],
     "axolotls": [],
-    "creature": [
-      {
-        "type": "minecraft:armadillo",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 6
-      }
-    ],
+    "creature": [],
     "misc": [],
     "monster": [
       {
