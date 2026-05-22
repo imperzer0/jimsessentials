@@ -1,0 +1,24 @@
+{
+  "name": "jimsessentials:wastelands/pyramid/basement2",
+  "fallback": "jimsessentials:wastelands/pyramid/basement_next_fallback",
+  "elements": [
+    {
+      "weight": 90,
+      "element": {
+        "location": "jimsessentials:wastelands/pyramid/basement_2",
+        "processors": "jimsessentials:wastelands/pyramid_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "jimsessentials:wastelands/pyramid/no_basement_next",
+        "processors": "jimsessentials:wastelands/pyramid_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

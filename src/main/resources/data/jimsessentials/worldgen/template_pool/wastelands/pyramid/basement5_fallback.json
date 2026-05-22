@@ -1,0 +1,15 @@
+{
+  "name": "jimsessentials:wastelands/pyramid/basement5_fallback",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "jimsessentials:wastelands/pyramid/no_basement_5",
+        "processors": "jimsessentials:wastelands/pyramid_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

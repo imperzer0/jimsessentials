@@ -1,0 +1,24 @@
+{
+  "name": "jimsessentials:wastelands/pyramid/portal",
+  "fallback": "jimsessentials:wastelands/pyramid/portal_fallback",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "location": "jimsessentials:wastelands/pyramid/portal",
+        "processors": "jimsessentials:wastelands/pyramid_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "jimsessentials:wastelands/pyramid/no_portal",
+        "processors": "jimsessentials:wastelands/pyramid_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

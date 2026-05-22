@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:jigsaw",
+	"start_pool": "jimsessentials:wastelands/pyramid/top",
+	"biomes": "#jimsessentials:has_structure/wastelands/pyramid",
+	"liquid_settings": "ignore_waterlogging",
+	"project_start_to_heightmap": "OCEAN_FLOOR_WG",
+	"dimension_padding": { "bottom": 0, "top": 160 },
+	"start_height": {
+		"absolute": -4
+	},
+	"spawn_overrides": {},
+	"step": "surface_structures",
+	"use_expansion_hack": false,
+	"max_distance_from_center": 40,
+	"size": 8,
+	"terrain_adaptation": "beard_thin"
+}

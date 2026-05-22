@@ -1,0 +1,24 @@
+{
+  "name": "jimsessentials:wastelands/pyramid/stairs",
+  "fallback": "jimsessentials:wastelands/pyramid/stairs_fallback",
+  "elements": [
+    {
+      "weight": 9,
+      "element": {
+        "location": "jimsessentials:wastelands/pyramid/stairs",
+        "processors": "jimsessentials:wastelands/pyramid_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "jimsessentials:wastelands/pyramid/no_stairs",
+        "processors": "jimsessentials:wastelands/pyramid_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "jimsessentials:wastelands/pyramid",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"spacing": 29,
+		"separation": 11,
+		"salt": 635,
+		"type": "minecraft:random_spread"
+	}
+}
