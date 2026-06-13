@@ -4,7 +4,7 @@ Jim's Essentials
 
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-cyan.svg)](https://www.minecraft.net/)
 [![NeoForge](https://img.shields.io/badge/NeoForge-21.1.219+-blue.svg)](https://neoforged.net/)
-![Version](https://img.shields.io/badge/Version-1.3.0-darkmagenta.svg)
+![Version](https://img.shields.io/badge/Version-1.3.2-darkmagenta.svg)
 
 >This mod is a collection of features I find necessary for a small smp server.
 >It consists of modules, some of which can be enabled or disabled in the server config.
