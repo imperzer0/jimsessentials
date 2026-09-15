@@ -79,12 +79,20 @@ A collection of features for small SMP servers
     # Side this dependency is applied on - BOTH, CLIENT, or SERVER
     side="BOTH"
 
-# Here's another dependency
 [[dependencies.${mod_id}]]
     modId="minecraft"
     type="required"
     # This version range declares a minimum of the current minecraft version up to but not including the next major version
     versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="somemoreblocks"
+    type="optional"
+    reason="Blocks defined by this mod are used in some of the overworld structures."
+    # This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="${some_more_blocks_versions}"
     ordering="NONE"
     side="BOTH"
 
@@ -97,3 +105,6 @@ A collection of features for small SMP servers
 
 [[mixins]]
 config = "cpapireforged.mixins.json"
+
+[[mixins]]
+config = "jimsessentials.mixins.json"
