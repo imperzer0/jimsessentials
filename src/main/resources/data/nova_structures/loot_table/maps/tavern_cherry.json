@@ -20,12 +20,10 @@
               "components": {
                 "minecraft:map_color": 14067617,
                 "minecraft:rarity": "common",
-                "minecraft:item_name": {
-                  "translate": "item.dnt.filled_map.tavern_cherry",
-                  "fallback": "Cherry Tavern Map"
+                "minecraft:item_name": "Cherry Tavern Map"
                 }
               }
-            }
+
           ]
         }
       ]

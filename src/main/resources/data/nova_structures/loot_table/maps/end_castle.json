@@ -20,11 +20,7 @@
               "components": {
                 "minecraft:map_color": 9317301,
                 "minecraft:rarity": "epic",
-                "minecraft:item_name": {
-                  "translate": "item.dnt.filled_map.end_castle",
-                  "fallback": "End Castle Map",
-                  "italic": false
-                }
+                "minecraft:item_name": "End Castle Map"
               }
             }
           ],

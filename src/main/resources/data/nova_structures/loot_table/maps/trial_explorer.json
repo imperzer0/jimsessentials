@@ -18,11 +18,10 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:map_color": 12741452,
-                "minecraft:item_name": {
-                  "translate": "filled_map.trial_chambers"
+                "minecraft:item_name": "filled_map.trial_chambers"
                 }
               }
-            }
+
           ],
           "name": "minecraft:map"
         }

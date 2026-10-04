@@ -20,12 +20,10 @@
               "components": {
                 "minecraft:map_color": 13746323,
                 "minecraft:rarity": "common",
-                "minecraft:item_name": {
-                  "translate": "item.dnt.filled_map.tavern_desert",
-                  "fallback": "Desert Tavern Map"
+                "minecraft:item_name": "Desert Tavern Map"
                 }
               }
-            }
+
           ]
         }
       ]

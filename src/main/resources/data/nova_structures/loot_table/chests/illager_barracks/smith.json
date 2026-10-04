@@ -226,18 +226,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_spear",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot",
-              "only_compatible": true
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:iron_helmet",
           "weight": 3,
           "functions": [
@@ -284,11 +272,6 @@
               "only_compatible": true
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:copper_horse_armor",
-          "weight": 1
         },
         {
           "type": "minecraft:item",

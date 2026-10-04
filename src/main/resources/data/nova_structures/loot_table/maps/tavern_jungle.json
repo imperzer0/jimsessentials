@@ -20,12 +20,10 @@
               "components": {
                 "minecraft:map_color": 12889674,
                 "minecraft:rarity": "common",
-                "minecraft:item_name": {
-                  "translate": "item.dnt.filled_map.tavern_jungle",
-                  "fallback": "Jungle Tavern Map"
+                "minecraft:item_name": "Jungle Tavern Map"
                 }
               }
-            }
+
           ]
         }
       ]

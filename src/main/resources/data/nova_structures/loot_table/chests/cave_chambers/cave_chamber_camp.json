@@ -281,11 +281,6 @@
           "name": "minecraft:iron_horse_armor",
           "weight": 1
         },
-		{
-          "type": "minecraft:item",
-          "name": "minecraft:copper_horse_armor",
-          "weight": 1
-        },
         {
           "type": "minecraft:item",
           "name": "minecraft:emerald",
@@ -441,72 +436,6 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:stone_pickaxe",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.1,
-                "max": 0.7
-              }
-            },
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 5,
-                "max": 20
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-		{
-          "type": "minecraft:item",
-          "name": "minecraft:copper_sword",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.1,
-                "max": 0.7
-              }
-            },
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 5,
-                "max": 20
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-		{
-          "type": "minecraft:item",
-          "name": "minecraft:copper_spear",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.1,
-                "max": 0.7
-              }
-            },
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 5,
-                "max": 20
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:copper_pickaxe",
           "weight": 5,
           "functions": [
             {
@@ -684,94 +613,6 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_boots",
           "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.1,
-                "max": 0.7
-              }
-            },
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 5,
-                "max": 20
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-		{
-          "type": "minecraft:item",
-          "name": "minecraft:copper_helmet",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.1,
-                "max": 0.7
-              }
-            },
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 5,
-                "max": 20
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:copper_chestplate",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.1,
-                "max": 0.7
-              }
-            },
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 5,
-                "max": 20
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:copper_leggings",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.1,
-                "max": 0.7
-              }
-            },
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 5,
-                "max": 20
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:copper_boots",
-          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_damage",

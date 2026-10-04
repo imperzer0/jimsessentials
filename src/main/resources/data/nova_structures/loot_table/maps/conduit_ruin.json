@@ -20,10 +20,7 @@
               "components": {
                 "minecraft:map_color": 2195617,
                 "minecraft:rarity": "uncommon",
-                "minecraft:item_name": {
-                  "translate": "item.dnt.filled_map.conduit_ruin",
-                  "fallback": "Conduit Ruin Map"
-                }
+                "minecraft:item_name": "Conduit Ruin Map"
               }
             }
           ]

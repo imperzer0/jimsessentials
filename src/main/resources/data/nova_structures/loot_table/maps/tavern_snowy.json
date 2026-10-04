@@ -20,12 +20,10 @@
               "components": {
                 "minecraft:map_color": 12701135,
                 "minecraft:rarity": "common",
-                "minecraft:item_name": {
-                  "translate": "item.dnt.filled_map.tavern_snowy",
-                  "fallback": "Snowy Tavern Map"
+                "minecraft:item_name": "Snowy Tavern Map"
                 }
               }
-            }
+
           ]
         }
       ]

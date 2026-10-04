@@ -20,11 +20,7 @@
               "components": {
                 "minecraft:map_color": 4727853,
                 "minecraft:rarity": "rare",
-                "minecraft:item_name": {
-                  "translate": "item.dnt.filled_map.piglin_hamlet",
-                  "fallback": "Piglin Hamlet Map",
-                  "italic": false
-                }
+                "minecraft:item_name": "Piglin Hamlet Map"
               }
             }
           ],

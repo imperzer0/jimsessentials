@@ -20,12 +20,10 @@
               "components": {
                 "minecraft:map_color": 13153404,
                 "minecraft:rarity": "common",
-                "minecraft:item_name": {
-                  "translate": "item.dnt.filled_map.tavern_birch",
-                  "fallback": "Birch Tavern Map"
+                "minecraft:item_name": "Birch Tavern Map"
                 }
               }
-            }
+
           ]
         }
       ]

@@ -20,10 +20,7 @@
               "components": {
                 "minecraft:map_color": 7235429,
                 "minecraft:rarity": "uncommon",
-                "minecraft:item_name": {
-                  "translate": "item.dnt.filled_map.cave_chamber_colony",
-                  "fallback": "Cave Chamber Colony Map"
-                }
+                "minecraft:item_name": "Cave Chamber Colony Map"
               }
             }
           ]

@@ -20,12 +20,10 @@
               "components": {
                 "minecraft:map_color": 5058840,
                 "minecraft:rarity": "common",
-                "minecraft:item_name": {
-                  "translate": "item.dnt.filled_map.tavern_dark_oak",
-                  "fallback": "Dark Oak Tavern Map"
+                "minecraft:item_name": "Dark Oak Tavern Map"
                 }
               }
-            }
+
           ]
         }
       ]

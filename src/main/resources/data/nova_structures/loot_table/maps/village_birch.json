@@ -20,12 +20,10 @@
               "components": {
                 "minecraft:map_color": 13089922,
                 "minecraft:rarity": "uncommon",
-                "minecraft:item_name": {
-                  "translate": "item.dnt.filled_map.village_birch",
-                  "fallback": "Birch Village Map"
+                "minecraft:item_name": "Birch Village Map"
                 }
               }
-            }
+
           ]
         }
       ]

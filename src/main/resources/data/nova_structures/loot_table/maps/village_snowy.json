@@ -19,11 +19,10 @@
               "components": {
                 "minecraft:map_color": 10066329,
                 "minecraft:rarity": "common",
-                "minecraft:item_name": {
-                  "translate": "filled_map.village_snowy"
+                "minecraft:item_name": "filled_map.village_snowy"
                 }
               }
-            }
+
           ]
         }
       ]

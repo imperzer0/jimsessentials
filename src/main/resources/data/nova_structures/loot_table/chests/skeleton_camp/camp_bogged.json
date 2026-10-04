@@ -33,20 +33,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:firefly_bush",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:red_mushroom",
           "weight": 2,
           "functions": [

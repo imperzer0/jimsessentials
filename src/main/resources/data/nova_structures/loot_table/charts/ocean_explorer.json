@@ -11,12 +11,6 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:consumable": {
-                  "consume_seconds": 99999,
-                  "animation": "block",
-                  "has_consume_particles": false,
-                  "on_consume_effects": []
-                },
                 "minecraft:custom_data": {
                   "structure": "minecraft_monument",
                   "dimension": "minecraft_overworld",
@@ -28,10 +22,7 @@
                     "dnt:chart"
                   ]
                 },
-                "minecraft:item_name": {
-                  "translate": "item.dnt.chart.monument",
-                  "fallback": "Ocean Explorer Chart"
-                },
+                "minecraft:item_name": "Ocean Explorer Chart",
                 "minecraft:lore": [
                   {
                     "translate": "item.dnt.chart.description",

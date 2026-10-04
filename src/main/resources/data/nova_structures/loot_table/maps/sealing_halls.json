@@ -20,11 +20,7 @@
               "components": {
                 "minecraft:map_color": 7340544,
                 "minecraft:rarity": "epic",
-                "minecraft:item_name": {
-                  "translate": "item.dnt.filled_map.sealing_halls",
-                  "fallback": "Sealing_halls Map",
-                  "italic": false
-                }
+                "minecraft:item_name": "Sealing_halls Map"
               }
             }
           ],

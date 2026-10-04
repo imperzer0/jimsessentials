@@ -11,12 +11,6 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:consumable": {
-                  "consume_seconds": 99999,
-                  "animation": "block",
-                  "has_consume_particles": false,
-                  "on_consume_effects": []
-                },
                 "minecraft:custom_data": {
                   "structure": "dnt_tavern_birch",
                   "dimension": "minecraft_overworld",
@@ -28,10 +22,7 @@
                     "dnt:chart"
                   ]
                 },
-                "minecraft:item_name": {
-                  "translate": "item.dnt.chart.tavern_birch",
-                  "fallback": "Birch Tavern Chart"
-                },
+                "minecraft:item_name": "Birch Tavern Chart",
                 "minecraft:lore": [
                   {
                     "translate": "item.dnt.chart.description",

@@ -20,12 +20,10 @@
               "components": {
                 "minecraft:map_color": 11361331,
                 "minecraft:rarity": "common",
-                "minecraft:item_name": {
-                  "translate": "item.dnt.filled_map.tavern_acacia",
-                  "fallback": "Acacia Tavern Map"
+                "minecraft:item_name": "Acacia Tavern Map"
                 }
               }
-            }
+
           ]
         }
       ]

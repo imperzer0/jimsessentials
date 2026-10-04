@@ -25,7 +25,7 @@
               "components": {
                 "minecraft:map_color": 16749056,
                 "minecraft:rarity": "epic",
-                "minecraft:item_name": {"translate": "item.dnt.filled_map.shrine_v6", "fallback": "Shrine Tier VI Location Map", "italic": false}
+                "minecraft:item_name": "Shrine Tier VI Location Map"
               }
             }
           ]

@@ -23,7 +23,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:map_color": 8120148,
-                "minecraft:item_name": "{'translate': 'item.dnt.filled_map.jungle_ruins', 'fallback': 'Jungle Ruins Map', 'italic': false}"
+                "minecraft:item_name": "Jungle Ruins Map"
               }
             }
           ],

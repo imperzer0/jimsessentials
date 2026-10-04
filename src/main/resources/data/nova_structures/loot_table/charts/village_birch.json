@@ -11,12 +11,6 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:consumable": {
-                  "consume_seconds": 99999,
-                  "animation": "block",
-                  "has_consume_particles": false,
-                  "on_consume_effects": []
-                },
                 "minecraft:custom_data": {
                   "structure": "dnt_village_birch",
                   "dimension": "minecraft_overworld",
@@ -28,10 +22,7 @@
                     "dnt:chart"
                   ]
                 },
-                "minecraft:item_name": {
-                  "translate": "item.dnt.chart.village_birch",
-                  "fallback": "Birch Village Chart"
-                },
+                "minecraft:item_name": "Birch Village Chart",
                 "minecraft:lore": [
                   {
                     "translate": "item.dnt.chart.description",

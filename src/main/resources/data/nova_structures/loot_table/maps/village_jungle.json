@@ -20,12 +20,10 @@
               "components": {
                 "minecraft:map_color": 3193611,
                 "minecraft:rarity": "uncommon",
-                "minecraft:item_name": {
-                  "translate": "item.dnt.filled_map.village_jungle",
-                  "fallback": "Jungle Village Map"
+                "minecraft:item_name": "Jungle Village Map"
                 }
               }
-            }
+
           ]
         }
       ]

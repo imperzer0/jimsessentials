@@ -20,11 +20,7 @@
               "components": {
                 "minecraft:map_color": 3837580,
                 "minecraft:rarity": "uncommon",
-                "minecraft:item_name": {
-                  "translate": "item.dnt.filled_map.nether_skeleton_tower",
-                  "fallback": "Nether Skeleton Tower Map",
-                  "italic": false
-                }
+                "minecraft:item_name": "Nether Skeleton Tower Map"
               }
             }
           ],

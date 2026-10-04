@@ -20,12 +20,9 @@
               "components": {
                 "minecraft:map_color": 7039595,
                 "minecraft:rarity": "uncommon",
-                "minecraft:item_name": {
-                  "translate": "item.dnt.filled_map.ruin_town",
-                  "fallback": "Ruin Town Map"
+                "minecraft:item_name": "Ruin Town Map"
                 }
               }
-            }
           ]
         }
       ]

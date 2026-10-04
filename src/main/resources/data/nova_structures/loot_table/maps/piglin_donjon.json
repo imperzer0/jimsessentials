@@ -20,11 +20,7 @@
               "components": {
                 "minecraft:map_color": 8266797,
                 "minecraft:rarity": "epic",
-                "minecraft:item_name": {
-                  "translate": "item.dnt.filled_map.piglin_donjon",
-                  "fallback": "Piglin Donjon Map",
-                  "italic": false
-                }
+                "minecraft:item_name": "Piglin Donjon Map"
               }
             }
           ],

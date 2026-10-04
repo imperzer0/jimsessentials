@@ -6,34 +6,6 @@
         {
           "type": "minecraft:group",
           "children": [
-            {
-              "type": "minecraft:item",
-              "name": "minecraft:copper_pickaxe",
-              "functions": [
-                {
-                  "function": "minecraft:set_damage",
-                  "damage": {
-                    "type": "minecraft:uniform",
-                    "min": 0.33,
-                    "max": 0.66
-                  }
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "name": "minecraft:copper_shovel",
-              "functions": [
-                {
-                  "function": "minecraft:set_damage",
-                  "damage": {
-                    "type": "minecraft:uniform",
-                    "min": 0.33,
-                    "max": 0.66
-                  }
-                }
-              ]
-            }
           ]
         }
       ]

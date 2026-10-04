@@ -20,12 +20,9 @@
               "components": {
                 "minecraft:map_color": 7520684,
                 "minecraft:rarity": "uncommon",
-                "minecraft:item_name": {
-                  "translate": "item.dnt.filled_map.ocean_ruins",
-                  "fallback": "Ocean Ruins Map"
+                "minecraft:item_name": "Ocean Ruins Map"
                 }
               }
-            }
           ]
         }
       ]

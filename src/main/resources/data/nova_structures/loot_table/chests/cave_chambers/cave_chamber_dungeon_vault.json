@@ -34,11 +34,6 @@
           "name": "minecraft:iron_horse_armor",
           "weight": 2
         },
-		{
-          "type": "minecraft:item",
-          "name": "minecraft:copper_horse_armor",
-          "weight": 2
-        },
         {
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
@@ -213,26 +208,6 @@
     {
       "rolls": 1,
       "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:copper_pickaxe",
-          "weight": 9,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 15,
-              "options": "#minecraft:on_random_loot"
-            },
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "type": "minecraft:uniform",
-                "min": 0.5,
-                "max": 0.65
-              }
-            }
-          ]
-        },
 		{
           "type": "minecraft:item",
           "name": "minecraft:iron_pickaxe",
@@ -322,30 +297,6 @@
     {
       "rolls": 1,
       "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:copper_helmet",
-          "weight": 7,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "min": 10,
-                "max": 15
-              },
-              "options": "#minecraft:on_random_loot"
-            },
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "type": "minecraft:uniform",
-                "min": 0.5,
-                "max": 0.65
-              }
-            }
-          ]
-        },
 		{
           "type": "minecraft:item",
           "name": "minecraft:iron_helmet",

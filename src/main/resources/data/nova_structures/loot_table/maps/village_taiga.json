@@ -19,11 +19,9 @@
               "components": {
                 "minecraft:map_color": 10066329,
                 "minecraft:rarity": "common",
-                "minecraft:item_name": {
-                  "translate": "filled_map.village_taiga"
+                "minecraft:item_name": "Taiga Village Map"
                 }
               }
-            }
           ]
         }
       ]

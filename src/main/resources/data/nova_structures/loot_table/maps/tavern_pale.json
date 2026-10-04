@@ -20,12 +20,10 @@
               "components": {
                 "minecraft:map_color": 16116457,
                 "minecraft:rarity": "common",
-                "minecraft:item_name": {
-                  "translate": "item.dnt.filled_map.tavern_pale",
-                  "fallback": "Pale Tavern Map"
+                "minecraft:item_name": "Pale Tavern Map"
                 }
               }
-            }
+
           ]
         }
       ]

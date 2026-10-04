@@ -20,11 +20,7 @@
               "components": {
                 "minecraft:map_color": 7340544,
                 "minecraft:rarity": "rare",
-                "minecraft:item_name": {
-                  "translate": "item.dnt.filled_map.nether_keep",
-                  "fallback": "Nether Keep Map",
-                  "italic": false
-                }
+                "minecraft:item_name": "Nether Keep Map"
               }
             }
           ],

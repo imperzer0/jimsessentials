@@ -23,7 +23,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:map_color": 13293823,
-                "minecraft:item_name": "{'translate': 'item.dnt.filled_map.stray_fort', 'fallback': 'Stray Fortress Map', 'italic': false}"
+                "minecraft:item_name": "Stray Fortress Map"
               }
             }
           ],

@@ -45,7 +45,6 @@
   },
   "start_pool": "nova_structures:nether_port/main",
   "size": 5,
-  "type": "minecraft:jigsaw",
   "use_expansion_hack": false,
   "terrain_adaptation": "beard_box"
 }

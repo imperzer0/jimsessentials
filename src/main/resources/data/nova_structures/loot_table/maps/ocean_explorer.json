@@ -18,9 +18,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:map_color": 3830373,
-                "minecraft:item_name": {
-                  "translate": "filled_map.monument"
-                }
+                "minecraft:item_name": "filled_map.monument"
               }
             }
           ],
@@ -34,6 +32,5 @@
       "function": "minecraft:reference",
       "name": "nova_structures:loot_modifier"
     }
-
   ]
 } 
