@@ -56,7 +56,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:copper_nautilus_armor",
+          "name": "minecraft:copper_horse_armor",
           "weight": 20
         },
         {
@@ -68,7 +68,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:iron_nautilus_armor",
+          "name": "minecraft:iron_horse_armor",
           "weight": 10
         },
         {
@@ -80,7 +80,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:golden_nautilus_armor",
+          "name": "minecraft:golden_horse_armor",
           "weight": 5
         },
         {
@@ -92,7 +92,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:diamond_nautilus_armor",
+          "name": "minecraft:diamond_horse_armor",
           "weight": 2
         }
       ],

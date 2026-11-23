@@ -186,20 +186,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_chain",
-          "weight": 7,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 7
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:porkchop",
           "weight": 7,
           "functions": [
@@ -273,7 +259,7 @@
         },
 		{
           "type": "minecraft:item",
-          "name": "minecraft:stone_spear",
+          "name": "minecraft:stone_sword",
           "weight": 2,
           "functions": [
             {
@@ -446,11 +432,6 @@
         {
           "type": "minecraft:empty",
           "weight": 35
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:dried_ghast",
-          "weight": 4
         },
         {
           "type": "minecraft:item",

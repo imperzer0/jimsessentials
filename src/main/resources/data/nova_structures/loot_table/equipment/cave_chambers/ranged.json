@@ -28,7 +28,7 @@
                 "entries": [
                   {
                     "type": "minecraft:item",
-                    "name": "minecraft:copper_helmet"
+                    "name": "minecraft:iron_helmet"
                   }
                 ],
                 "functions": [],
@@ -44,7 +44,7 @@
                 "entries": [
                   {
                     "type": "minecraft:item",
-                    "name": "minecraft:copper_chestplate"
+                    "name": "minecraft:iron_chestplate"
                   }
                 ],
                 "conditions": [
@@ -59,7 +59,7 @@
                 "entries": [
                   {
                     "type": "minecraft:item",
-                    "name": "minecraft:copper_boots"
+                    "name": "minecraft:iron_boots"
                   }
                 ],
                 "conditions": [

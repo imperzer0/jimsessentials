@@ -148,7 +148,7 @@
         },
 		{
           "type": "item",
-          "name": "iron_spear",
+          "name": "iron_sword",
           "functions": [
             {
               "function": "enchant_with_levels",

@@ -30,7 +30,7 @@
                         "function": "minecraft:set_components"
                       }
                     ],
-                    "name": "minecraft:copper_helmet"
+                    "name": "minecraft:iron_helmet"
                   }
                 ],
                 "rolls": 1.0
@@ -57,7 +57,7 @@
                         "function": "minecraft:set_components"
                       }
                     ],
-                    "name": "minecraft:copper_chestplate"
+                    "name": "minecraft:iron_chestplate"
                   }
                 ],
                 "rolls": 1.0
@@ -73,12 +73,12 @@
                 "entries": [
                   {
                     "type": "minecraft:item",
-                    "name": "minecraft:copper_sword",
+                    "name": "minecraft:iron_sword",
 					"weight": 8
                   },
 				  {
                     "type": "minecraft:item",
-                    "name": "minecraft:copper_spear"
+                    "name": "minecraft:copper_sword"
                   }
                 ],
                 "rolls": 1.0
@@ -161,7 +161,7 @@
                   },
 				  {
                     "type": "minecraft:item",
-                    "name": "minecraft:iron_spear"
+                    "name": "minecraft:iron_sword"
                   }
                 ],
                 "rolls": 1.0
@@ -244,7 +244,7 @@
                   },
 				  {
                     "type": "minecraft:item",
-                    "name": "minecraft:diamond_spear"
+                    "name": "minecraft:diamond_sword"
                   }
                 ],
                 "rolls": 1.0
@@ -326,7 +326,7 @@
                   },
 				  {
                     "type": "minecraft:item",
-                    "name": "minecraft:golden_spear"
+                    "name": "minecraft:golden_sword"
                   }
                 ],
                 "rolls": 1.0

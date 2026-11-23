@@ -154,17 +154,6 @@
             }
           ]
         },
-		{
-          "type": "minecraft:item",
-          "name": "minecraft:white_harness",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#nova_structures:swift_soar"
-            }
-          ]
-        },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_chestplate",

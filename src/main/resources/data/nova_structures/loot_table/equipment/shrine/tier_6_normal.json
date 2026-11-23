@@ -175,7 +175,7 @@
                   },
 				  {
                     "type": "minecraft:item",
-                    "name": "minecraft:iron_spear",
+                    "name": "minecraft:iron_sword",
                     "functions": [
                       {
                         "function": "enchant_with_levels",
@@ -365,7 +365,7 @@
                   },
 				  {
                     "type": "minecraft:item",
-                    "name": "minecraft:diamond_spear",
+                    "name": "minecraft:diamond_sword",
                     "functions": [
                       {
                         "function": "enchant_with_levels",
@@ -417,7 +417,7 @@
                         "options": "#minecraft:on_mob_spawn_equipment"
                       }
                     ],
-                    "name": "minecraft:copper_helmet"
+                    "name": "minecraft:iron_helmet"
                   }
                 ],
                 "rolls": 1.0
@@ -452,7 +452,7 @@
                         "options": "#minecraft:on_mob_spawn_equipment"
                       }
                     ],
-                    "name": "minecraft:copper_chestplate"
+                    "name": "minecraft:iron_chestplate"
                   }
                 ],
                 "rolls": 1.0
@@ -487,7 +487,7 @@
                         "options": "#minecraft:on_mob_spawn_equipment"
                       }
                     ],
-                    "name": "minecraft:copper_leggings"
+                    "name": "minecraft:iron_leggings"
                   }
                 ],
                 "rolls": 1.0
@@ -523,7 +523,7 @@
                         "options": "#minecraft:on_mob_spawn_equipment"
                       }
                     ],
-                    "name": "minecraft:copper_boots"
+                    "name": "minecraft:iron_boots"
                   }
                 ],
                 "rolls": 1.0
@@ -539,7 +539,7 @@
                 "entries": [
                   {
                     "type": "minecraft:item",
-                    "name": "minecraft:copper_sword",
+                    "name": "minecraft:iron_sword",
                     "functions": [
                       {
                         "function": "enchant_with_levels",

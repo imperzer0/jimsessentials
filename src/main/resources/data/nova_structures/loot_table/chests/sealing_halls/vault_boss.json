@@ -301,17 +301,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:white_harness",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#nova_structures:structure/harness_enchants"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 3,
           "functions": [
@@ -371,15 +360,6 @@
               "only_compatible": true
             }
           ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:dried_ghast"
         }
       ]
     }

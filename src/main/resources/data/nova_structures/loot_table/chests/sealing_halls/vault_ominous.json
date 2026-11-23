@@ -576,22 +576,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:dried_ghast",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:black_harness",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#nova_structures:swift_soar"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 3,
           "functions": [
@@ -630,11 +614,6 @@
           "type": "minecraft:item",
           "name": "minecraft:rib_armor_trim_smithing_template",
           "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_tears",
-          "weight": 5
         },
 		{
           "type": "minecraft:item",

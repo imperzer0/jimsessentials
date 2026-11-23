@@ -21,7 +21,7 @@
         },
 		{
           "type": "minecraft:item",
-          "name": "minecraft:iron_spear",
+          "name": "minecraft:iron_sword",
           "weight": 4,
           "functions": [
             {
@@ -197,7 +197,7 @@
         },
 		{
           "type": "minecraft:item",
-          "name": "minecraft:diamond_spear",
+          "name": "minecraft:diamond_sword",
           "weight": 3,
           "functions": [
             {

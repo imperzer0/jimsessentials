@@ -274,11 +274,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "dried_ghast",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:ominous_bottle",
           "weight": 5,
           "functions": [

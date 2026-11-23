@@ -165,7 +165,7 @@
                 "entries": [
                   {
                     "type": "minecraft:item",
-                    "name": "minecraft:copper_helmet"
+                    "name": "minecraft:iron_helmet"
                   }
                 ],
                 "rolls": 1.0
@@ -181,7 +181,7 @@
                 "entries": [
                   {
                     "type": "minecraft:item",
-                    "name": "minecraft:copper_chestplate"
+                    "name": "minecraft:iron_chestplate"
                   }
                 ],
                 "rolls": 1.0
