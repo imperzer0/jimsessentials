@@ -1,10 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.github.jimsessentials.modules.disable_alexscaves_magnets",
+  "package": "com.github.jimsessentials.mixins",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "MagnetUtilMixin"
+    "DisableMagnetsMixin",
+    "WitherBossMixin"
   ],
   "injectors": {
     "defaultRequire": 1

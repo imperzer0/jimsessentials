@@ -1,4 +1,4 @@
-package com.github.jimsessentials.modules.disable_alexscaves_magnets;
+package com.github.jimsessentials.mixins;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
@@ -14,7 +14,7 @@ import java.util.stream.Stream;
 
 @Pseudo
 @Mixin(targets = "com.github.alexmodguy.alexscaves.server.entity.util.MagnetUtil", remap = false)
-public abstract class MagnetUtilMixin
+public abstract class DisableMagnetsMixin
 {
 
     @Inject(method = "getNearbyAttractingMagnets", at = @At("HEAD"), cancellable = true, require = 0)

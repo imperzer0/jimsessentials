@@ -125,6 +125,12 @@
         "weight": 100
       },
       {
+        "type": "minecraft:husk",
+        "maxCount": 15,
+        "minCount": 5,
+        "weight": 80
+      },
+      {
         "type": "minecraft:zombie",
         "maxCount": 4,
         "minCount": 4,
@@ -150,21 +156,21 @@
       },
       {
         "type": "minecraft:slime",
-        "maxCount": 4,
+        "maxCount": 10,
         "minCount": 4,
         "weight": 100
       },
       {
         "type": "minecraft:witch",
-        "maxCount": 1,
+        "maxCount": 5,
         "minCount": 1,
         "weight": 5
       },
       {
-        "type": "minecraft:husk",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 80
+        "type": "minecraft:wither",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 5
       }
     ],
     "underground_water_creature": [

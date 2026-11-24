@@ -93,43 +93,43 @@ public class DIM_Wastelands implements Dimension
                         new Climate.ParameterList<>(List.of(
                                 Pair.of(Climate.parameters(
                                         Climate.Parameter.span(-1, 0), // t
-                                        Climate.Parameter.point(0), // h
+                                        Climate.Parameter.span(-1, 1), // h
                                         Climate.Parameter.span(0, 1), // C
-                                        Climate.Parameter.point(0), // E
-                                        Climate.Parameter.point(0), // D
-                                        Climate.Parameter.point(0), // w
+                                        Climate.Parameter.span(-0.6f, 0.1f), // E
+                                        Climate.Parameter.span(-1, 0.55f), // D
+                                        Climate.Parameter.span(-1, 1), // w
                                         0.f /* offset */), biomeRegistry.getOrThrow(WASTELANDS_BADLANDS)),
                                 Pair.of(Climate.parameters(
                                         Climate.Parameter.span(-2, -0.1f), // t
-                                        Climate.Parameter.point(0), // h
+                                        Climate.Parameter.span(-1, 1), // h
                                         Climate.Parameter.span(0.7f, 2), // C
-                                        Climate.Parameter.point(0), // E
-                                        Climate.Parameter.point(0), // D
-                                        Climate.Parameter.point(0), // w
+                                        Climate.Parameter.span(-1, -0.6f), // E
+                                        Climate.Parameter.span(-1, 0.55f), // D
+                                        Climate.Parameter.span(-1, 1), // w
                                         0.f /* offset */), biomeRegistry.getOrThrow(WASTELANDS_STONY_PEAKS)),
                                 Pair.of(Climate.parameters(
                                         Climate.Parameter.span(0.2f, 2), // t
-                                        Climate.Parameter.point(0), // h
-                                        Climate.Parameter.span(-2, 0.7f), // C
-                                        Climate.Parameter.point(0), // E
-                                        Climate.Parameter.point(0), // D
-                                        Climate.Parameter.point(0), // w
+                                        Climate.Parameter.span(-1, 1), // h
+                                        Climate.Parameter.span(0.1f, 1.5f), // C (Modified: restricts biome to inland terrestrial generation)
+                                        Climate.Parameter.span(0.1f, 1), // E
+                                        Climate.Parameter.span(-1, 0.55f), // D
+                                        Climate.Parameter.span(-1, 1), // w
                                         0.f /* offset */), biomeRegistry.getOrThrow(WASTELANDS_DESERT)),
                                 Pair.of(Climate.parameters(
                                         Climate.Parameter.span(-0.5f, 0.5f), // t
-                                        Climate.Parameter.point(0), // h
-                                        Climate.Parameter.point(0), // C
-                                        Climate.Parameter.point(0.5f), // E
-                                        Climate.Parameter.point(0.3f), // D
-                                        Climate.Parameter.point(0), // w
+                                        Climate.Parameter.span(-1, 1), // h
+                                        Climate.Parameter.span(0, 1), // C
+                                        Climate.Parameter.span(-1, 1), // E
+                                        Climate.Parameter.span(0.55f, 1.0f), // D
+                                        Climate.Parameter.span(-1, 1), // w
                                         0.f /* offset */), biomeRegistry.getOrThrow(WASTELANDS_DRIPSTONE_CAVES)),
                                 Pair.of(Climate.parameters(
                                         Climate.Parameter.span(-0.5f, 0.5f), // t
-                                        Climate.Parameter.point(0), // h
-                                        Climate.Parameter.point(-0.5f), // C
-                                        Climate.Parameter.point(0), // E
-                                        Climate.Parameter.point(0.4f), // D
-                                        Climate.Parameter.point(0), // w
+                                        Climate.Parameter.span(-1, 1), // h
+                                        Climate.Parameter.span(-1, 0), // C
+                                        Climate.Parameter.span(-1, 1), // E
+                                        Climate.Parameter.span(0.55f, 1.0f), // D
+                                        Climate.Parameter.span(-1, 1), // w
                                         0.f /* offset */), biomeRegistry.getOrThrow(WASTELANDS_LUSH_CAVES))
                         ))),
                 noiseGenSettings.getOrThrow(ResourceKey.create(Registries.NOISE_SETTINGS, ResourceLocation.fromNamespaceAndPath(JimsEssentials.MODID, "wastelands"))));
