@@ -1,0 +1,105 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "rolls": 1.0,
+                "bonus_rolls": 0.0,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bowl"
+                  }
+                ]
+              },
+              {
+                "rolls": 3,
+                "bonus_rolls": 0.0,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "type": "minecraft:uniform",
+                          "min": 18.0,
+                          "max": 24.0
+                        },
+                        "add": false
+                      }
+                    ],
+                    "name": "minecraft:cooked_porkchop"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "type": "minecraft:uniform",
+                          "min": 14.0,
+                          "max": 41.0
+                        },
+                        "add": false
+                      }
+                    ],
+                    "name": "minecraft:glistering_melon_slice"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "type": "minecraft:uniform",
+                          "min": 22.0,
+                          "max": 61.0
+                        },
+                        "add": false
+                      }
+                    ],
+                    "name": "minecraft:wheat"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "type": "minecraft:uniform",
+                          "min": 1.0,
+                          "max": 4.0
+                        },
+                        "add": false
+                      }
+                    ],
+                    "name": "minecraft:bread"
+                  }
+                ]
+              }
+            ]
+          },
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/simple_dungeon"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "nova_structures:loot_modifier"
+    }
+  ]
+}

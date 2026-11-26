@@ -145,9 +145,9 @@
       },
       {
         "type": "minecraft:wither",
-        "maxCount": 3,
+        "maxCount": 2,
         "minCount": 1,
-        "weight": 5
+        "weight": 2
       }
     ],
     "underground_water_creature": [

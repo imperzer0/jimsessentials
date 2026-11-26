@@ -10,20 +10,17 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.ModifyDefaultComponentsEvent;
 
 @EventBusSubscriber(modid = "jimsessentials")
-public class EdibleGlisteringMelons {
-
-    /**
-     * Injects alimentary properties and therapeutic status effects into the
-     * baseline vanilla Glistering Melon Slice item stack during component initialization.
-     */
+public class EdibleGlisteringMelons
+{
     @SubscribeEvent
-    public static void onModifyDefaultComponents(ModifyDefaultComponentsEvent event) {
+    public static void onModifyDefaultComponents(ModifyDefaultComponentsEvent event)
+    {
         event.modify(Items.GLISTERING_MELON_SLICE, builder -> builder.set(
                 DataComponents.FOOD,
                 new FoodProperties.Builder()
                         .nutrition(6)                         // Restores 3 hunger shanks
-                        .saturationModifier(14.4f)             // Saturation coefficient
-                        .alwaysEdible()                       // Permits ingestion at full satiety
+                        .saturationModifier(14.4f)            // Saturation coefficient
+                        .alwaysEdible()                       // Permits consumption at full satiety
                         .effect(() -> new MobEffectInstance(MobEffects.HEAL, 1, 0), 1.0f) // Instant Health I
                         .build()
         ));

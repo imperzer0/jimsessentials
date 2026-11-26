@@ -59,13 +59,13 @@
                         "function": "minecraft:set_count",
                         "count": {
                           "type": "minecraft:uniform",
-                          "min": 2.0,
-                          "max": 6.0
+                          "min": 20.0,
+                          "max": 36.0
                         },
                         "add": false
                       }
                     ],
-                    "name": "minecraft:wheat"
+                    "name": "minecraft:nether_wart"
                   },
                   {
                     "type": "minecraft:item",
@@ -80,7 +80,7 @@
                         "add": false
                       }
                     ],
-                    "name": "minecraft:bread"
+                    "name": "minecraft:wither_skeleton_skull"
                   }
                 ]
               }
@@ -94,12 +94,6 @@
         }
       ],
       "rolls": 1.0
-    }
-  ],
-  "functions": [
-    {
-      "function": "minecraft:reference",
-      "name": "nova_structures:loot_modifier"
     }
   ]
 }

@@ -1,0 +1,121 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "rolls": 3,
+                "bonus_rolls": 0.0,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "type": "minecraft:uniform",
+                          "min": 11.0,
+                          "max": 50.0
+                        },
+                        "add": false
+                      }
+                    ],
+                    "name": "minecraft:book",
+                    "weight": 3
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "type": "minecraft:uniform",
+                          "min": 12.0,
+                          "max": 60.0
+                        },
+                        "add": false
+                      }
+                    ],
+                    "name": "minecraft:paper",
+                    "weight": 3
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "type": "minecraft:uniform",
+                          "min": 12.0,
+                          "max": 25.0
+                        },
+                        "add": false
+                      }
+                    ],
+                    "name": "minecraft:candle",
+                    "weight": 3
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "type": "minecraft:uniform",
+                          "min": 12.0,
+                          "max": 23.0
+                        },
+                        "add": false
+                      }
+                    ],
+                    "name": "minecraft:feather",
+                    "weight": 2
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "type": "minecraft:uniform",
+                          "min": 7.0,
+                          "max": 15.0
+                        },
+                        "add": false
+                      }
+                    ],
+                    "name": "minecraft:ink_sac",
+                    "weight": 2
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "minecraft:enchant_with_levels",
+                        "levels": 5,
+                        "options": "#minecraft:on_random_loot"
+                      }
+                    ],
+                    "name": "minecraft:book",
+                    "weight": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/simple_dungeon"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

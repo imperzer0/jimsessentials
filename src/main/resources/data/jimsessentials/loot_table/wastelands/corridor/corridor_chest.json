@@ -17,7 +17,27 @@
               "function": "minecraft:set_count"
             }
           ],
+          "weight": 3,
           "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 50,
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "weight": 1,
+          "name": "minecraft:bow"
         },
         {
           "type": "minecraft:item",

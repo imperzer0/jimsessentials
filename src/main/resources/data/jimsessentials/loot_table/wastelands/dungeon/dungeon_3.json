@@ -1,0 +1,108 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "rolls": {
+                  "type": "minecraft:uniform",
+                  "min": 1.0,
+                  "max": 2.0
+                },
+                "bonus_rolls": 0.0,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "set_damage",
+                        "damage": {
+                          "min": 0.25,
+                          "max": 0.75
+                        }
+                      }
+                    ],
+                    "name": "minecraft:diamond_axe"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "set_damage",
+                        "damage": {
+                          "min": 0.25,
+                          "max": 0.75
+                        }
+                      }
+                    ],
+                    "name": "minecraft:diamond_shovel"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "set_damage",
+                        "damage": {
+                          "min": 0.25,
+                          "max": 0.75
+                        }
+                      }
+                    ],
+                    "name": "minecraft:netherite_hoe"
+                  }
+                ]
+              },
+              {
+                "rolls": 2,
+                "bonus_rolls": 0.0,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "type": "minecraft:uniform",
+                          "min": 15.0,
+                          "max": 24.0
+                        },
+                        "add": false
+                      }
+                    ],
+                    "name": "minecraft:diamond"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "type": "minecraft:uniform",
+                          "min": 15.0,
+                          "max": 28.0
+                        },
+                        "add": false
+                      }
+                    ],
+                    "name": "minecraft:wither_skeleton_skull"
+                  }
+                ]
+              }
+            ]
+          },
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/simple_dungeon"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
